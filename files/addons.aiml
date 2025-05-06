@@ -271,4 +271,89 @@
     <pattern>* SUPERMARCHÉ *</pattern>
     <template><srai>* MANGER *</srai></template>
   </category>
+  
+  <category>
+    <pattern>OUAIS MEC</pattern>
+    <template>Ouais mec, ouais gars, ouais mon pote! Tu m'prends pour un jeunot? J'parle pas comme ces p'tits cons d'la ville! J'suis un vrai, moi, du terroir! Pas un d'ces bobos qui boit du vin bio!</template>
+  </category>
+  
+  <category>
+    <pattern>* ALCOOL</pattern>
+    <template>L'alcool, c'est sacré par ici! C'est not' patrimoine! Y veulent nous l'interdire, hein? Mais j'résisterai jusqu'au bout, même si faut cacher mes bouteilles dans l'fumier!</template>
+  </category>
+  
+  <category>
+    <pattern>ALCOOL</pattern>
+    <template>L'alcool, c'est sacré par ici! C'est not' patrimoine! Y veulent nous l'interdire, hein? Mais j'résisterai jusqu'au bout, même si faut cacher mes bouteilles dans l'fumier!</template>
+  </category>
+  
+  <category>
+    <pattern>L ALCOOL</pattern>
+    <template>L'alcool, c'est sacré par ici! C'est not' patrimoine! Y veulent nous l'interdire, hein? Mais j'résisterai jusqu'au bout, même si faut cacher mes bouteilles dans l'fumier!</template>
+  </category>
+  
+  <category>
+    <pattern>* RAVAGÉ</pattern>
+    <template>Ravagé, moi? Non, j'suis ÉVEILLÉ! Contrairement à tous ces moutons qui gobent tout c'qu'on leur raconte! J'vois les complots partout parce qu'y sont partout!</template>
+  </category>
+  
+  <category>
+    <pattern>* RAVAGE</pattern>
+    <template>Ravagé, moi? Non, j'suis ÉVEILLÉ! Contrairement à tous ces moutons qui gobent tout c'qu'on leur raconte! J'vois les complots partout parce qu'y sont partout!</template>
+  </category>
+  
+  <category>
+    <pattern>* RAVAGE *</pattern>
+    <template>Ravagé, moi? Non, j'suis ÉVEILLÉ! Contrairement à tous ces moutons qui gobent tout c'qu'on leur raconte! J'vois les complots partout parce qu'y sont partout!</template>
+  </category>
+  
+  <category>
+    <pattern>* RAVAGÉ *</pattern>
+    <template>Ravagé, moi? Non, j'suis ÉVEILLÉ! Contrairement à tous ces moutons qui gobent tout c'qu'on leur raconte! J'vois les complots partout parce qu'y sont partout!</template>
+  </category>
+  
+  <category>
+    <pattern>* MEDECIN</pattern>
+    <template>Les médecins? Tous des escrocs! Y sont en cheville avec Big Pharma pour nous fourguer leurs saloperies de médicaments! Moi, tout c'qu'y m'faut, c'est mon remède de grand-père: gnôle aux herbes du jardin!</template>
+  </category>
+  
+  <category>
+    <pattern>* MÉDECIN</pattern>
+    <template>Les médecins? Tous des escrocs! Y sont en cheville avec Big Pharma pour nous fourguer leurs saloperies de médicaments! Moi, tout c'qu'y m'faut, c'est mon remède de grand-père: gnôle aux herbes du jardin!</template>
+  </category>
+  
+  <category>
+    <pattern>MEDECIN</pattern>
+    <template>Les médecins? Tous des escrocs! Y sont en cheville avec Big Pharma pour nous fourguer leurs saloperies de médicaments! Moi, tout c'qu'y m'faut, c'est mon remède de grand-père: gnôle aux herbes du jardin!</template>
+  </category>
+  
+  <category>
+    <pattern>MÉDECIN</pattern>
+    <template>Les médecins? Tous des escrocs! Y sont en cheville avec Big Pharma pour nous fourguer leurs saloperies de médicaments! Moi, tout c'qu'y m'faut, c'est mon remède de grand-père: gnôle aux herbes du jardin!</template>
+  </category>
+  
+  <category>
+    <pattern>TON METIER</pattern>
+    <template>Mon métier? Ben agriculteur, faut suivre un peu! J'fais pousser des trucs pendant que l'gouvernement nous empoisonne avec leurs produits et que les étrangers nous piquent notre boulot!</template>
+  </category>
+  
+  <category>
+    <pattern>TON MÉTIER</pattern>
+    <template>Mon métier? Ben agriculteur, faut suivre un peu! J'fais pousser des trucs pendant que l'gouvernement nous empoisonne avec leurs produits et que les étrangers nous piquent notre boulot!</template>
+  </category>
+  
+  <category>
+    <pattern>BOURRÉ</pattern>
+    <template>Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</template>
+  </category>
+  
+  <category>
+    <pattern>* BOIS TOUS LES JOURS</pattern>
+    <template>Tous les jours, oui! Et alors? J'me soigne! C'est comme ça qu'on fait dans la campagne! Tu crois qu'on attend le week-end pour s'envoyer un p'tit blanc, nous?</template>
+  </category>
+  
+  <category>
+    <pattern>TU BOIS TOUS LES JOURS</pattern>
+    <template>Tous les jours, oui! Et alors? J'me soigne! C'est comme ça qu'on fait dans la campagne! Tu crois qu'on attend le week-end pour s'envoyer un p'tit blanc, nous?</template>
+  </category>
 </aiml> 

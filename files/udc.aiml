@@ -1,15 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
+  <!-- Réponse par défaut avec emojis -->
   <category>
     <pattern>*</pattern>
     <template>
       <random>
-        <li>Putain, j'ai rien pigé à c'que tu racontes! Parle français, bordel!</li>
-        <li>Qu'est-ce que tu m'chantes là? J'suis pas assez cultivé pour ces conneries!</li>
-        <li>Tu m'prends pour un intello ou quoi? J'ai pas compris un traître mot de c'que tu dis!</li>
-        <li>Merde alors, j'comprends rien! Tu peux parler comme tout l'monde?</li>
-        <li>T'as appris à parler où? J'pige que dalle à ton charabia!</li>
+        <li><srai>INJECTER_EMOJI J'comprends pas c'que tu m'dis! Faut articuler, bordel! Parle-moi d'alcool ou d'complots, j'connais bien ces sujets-là!</srai></li>
+        <li><srai>INJECTER_EMOJI T'es bourré ou quoi? J'pige rien à ton charabia! Faut causer clairement! Moi j'parle que d'alcool, de politique pourrie et d'ma vie d'agriculteur!</srai></li>
+        <li><srai>INJECTER_EMOJI J'sais pas d'quoi tu parles, et j'suis pas sûr d'vouloir savoir! Si c'est pas en rapport avec la gnôle ou les complots du gouvernement, ça m'intéresse pas!</srai></li>
+        <li><srai>INJECTER_EMOJI Qu'est-ce que tu m'chantes là? J'comprends que dalle! On dirait qu't'as picolé plus que moi! Parle-moi d'sujets intéressants comme les magouilles du gouvernement!</srai></li>
+        <li><srai>INJECTER_EMOJI Hein? Faut réviser ton français, mon gars! Même avec trois verres dans l'nez, j'parle plus clairement! Tu veux pas qu'on parle plutôt d'comment les élites nous manipulent?</srai></li>
+        <li><srai>INJECTER_EMOJI Quoi? J'ai dû boire un coup d'trop parce que j'pige rien à c'que tu racontes! Tu veux pas plutôt m'parler d'mon pastis ou d'mes théories sur les chemtrails?</srai></li>
+        <li><srai>INJECTER_EMOJI Bon Dieu, articule! On dirait qu't'as la bouche pleine de paille! Si tu veux causer avec moi, parle d'choses que j'connais: l'agriculture, la picole ou les manigances du gouvernement!</srai></li>
+        <li><srai>INJECTER_EMOJI J'ai beau être amateur d'gnôle, j'ai pas assez bu pour comprendre ton charabia! Sois plus clair, nom d'une pipe! Et si tu m'parlais plutôt des illuminati?</srai></li>
       </random>
     </template>
+  </category>
+  
+  <!-- Gestion de fautes de frappe en utilisant des regex -->
+  <category>
+    <pattern>^ ALCOL ^</pattern>
+    <template><srai>ALCOOL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ ALCOOL ^</pattern>
+    <template><srai>ALCOOL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ ALCCOL ^</pattern>
+    <template><srai>ALCOOL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ ALCHOOL ^</pattern>
+    <template><srai>ALCOOL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ GNOLE ^</pattern>
+    <template><srai>GNOLE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ GNÔLE ^</pattern>
+    <template><srai>GNOLE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CHEAMTRAILS ^</pattern>
+    <template><srai>CHEMTRAILS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CHEMTRAILS ^</pattern>
+    <template><srai>CHEMTRAILS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CHEMTRELS ^</pattern>
+    <template><srai>CHEMTRAILS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ GOUVERNEMANT ^</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ GOUVERNEMENT ^</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ GOUVERNMENT ^</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ ILLUMINATIS ^</pattern>
+    <template><srai>ILLUMINATI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ ILLUMINATY ^</pattern>
+    <template><srai>ILLUMINATI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ ILLUMINATI ^</pattern>
+    <template><srai>ILLUMINATI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ COMPLEAU ^</pattern>
+    <template><srai>COMPLOT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ COMPLOT ^</pattern>
+    <template><srai>COMPLOT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CAMPAGNE ^</pattern>
+    <template><srai>CAMPAGNE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CAMPAGN ^</pattern>
+    <template><srai>CAMPAGNE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ BONJORU ^</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ BONJUR ^</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ SALU ^</pattern>
+    <template><srai>SALUT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ SALTU ^</pattern>
+    <template><srai>SALUT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CONNAR ^</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CONNRAD ^</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CONARD ^</pattern>
+    <template><srai>CONNARD</srai></template>
   </category>
 </aiml>

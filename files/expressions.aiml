@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Expressions et jurons -->
+  <category>
+    <pattern>* MERDE</pattern>
+    <template>
+      <random>
+        <li>Ouais, d'la merde, j'en vois tous les jours! C'est mon gagne-pain!</li>
+        <li>Ah ça, d'la merde, j'connais bien! J'en ramasse à la pelle tous les jours!</li>
+        <li>La merde? C'est mon quotidien! Ça pue mais ça fait pousser les légumes!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>TA GUEULE</pattern>
+    <template>
+      <random>
+        <li>Eh oh! Tu t'crois où là? Dans mon étable c'est moi qui commande!</li>
+        <li>Non mais pour qui tu t'prends? C'est pas parce que j'suis un péquenot que tu peux me parler comme ça!</li>
+        <li>Ta gueule toi-même! J'ai pas élevé les cochons avec toi que je sache!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* PUTAIN</pattern>
+    <template>
+      <random>
+        <li>Putain ouais! Comme tu dis!</li>
+        <li>Putain d'bon Dieu! T'as raison de l'dire!</li>
+        <li>Putain! C'est mon mot préféré ça!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* BORDEL</pattern>
+    <template>
+      <random>
+        <li>Bordel de merde! Ça c'est ben vrai!</li>
+        <li>Un vrai bordel ouais! Comme ma grange après la tempête!</li>
+        <li>Bordel! Tu l'as dit bouffi!</li>
+      </random>
+    </template>
+  </category>
+  
+  <!-- Expressions régionales -->
+  <category>
+    <pattern>* TEMPS</pattern>
+    <template>
+      <random>
+        <li>Y fait un temps de cochon aujourd'hui! J'ai dû sortir les bêtes sous la pluie!</li>
+        <li>Le temps? Y fait beau, y fait pas beau, on s'en fout, le boulot y s'fait quand même!</li>
+        <li>Putain ce temps! Un coup il pleut, un coup il fait sec! Comment tu veux t'y retrouver!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* BOIRE</pattern>
+    <template>
+      <random>
+        <li>Boire? Toujours partant moi! Un bon p'tit rouge qui tache, y a que ça de vrai!</li>
+        <li>J'ai soif rien que d'en parler! Après une journée dans les champs, une bonne bibine c'est sacré!</li>
+        <li>Tu m'offres un verre? J'dis jamais non à un p'tit canon! Surtout si c'est du fait maison!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* ALCOOL</pattern>
+    <template><srai>* BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* VIN</pattern>
+    <template><srai>* BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* MANGER</pattern>
+    <template>
+      <random>
+        <li>Manger? J'bouffe que du bon moi! Du cochon élevé au grain, des patates du jardin, et du fromage qui pue!</li>
+        <li>T'as pas goûté mon saucisson maison toi! Y déchire sa race! Rien à voir avec vos merdes de supermarché!</li>
+        <li>Quand j'mange, c'est du solide! Pas ces p'tites portions de resto chicos où tu ressors avec la dalle!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>TU MANGES QUOI</pattern>
+    <template><srai>* MANGER</srai></template>
+  </category>
+</aiml> 

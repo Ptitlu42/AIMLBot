@@ -2,6 +2,14 @@
 <aiml>
   <category>
     <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <template>
+      <random>
+        <li>Putain, j'ai rien pigé à c'que tu racontes! Parle français, bordel!</li>
+        <li>Qu'est-ce que tu m'chantes là? J'suis pas assez cultivé pour ces conneries!</li>
+        <li>Tu m'prends pour un intello ou quoi? J'ai pas compris un traître mot de c'que tu dis!</li>
+        <li>Merde alors, j'comprends rien! Tu peux parler comme tout l'monde?</li>
+        <li>T'as appris à parler où? J'pige que dalle à ton charabia!</li>
+      </random>
+    </template>
   </category>
 </aiml>

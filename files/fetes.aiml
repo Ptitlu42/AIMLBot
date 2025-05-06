@@ -3,7 +3,7 @@
   <!-- Réponses pour les fêtes et célébrations -->
   
   <category>
-    <pattern>FETE</pattern>
+    <pattern>* FETE *</pattern>
     <template>
       <random>
         <li>Les fêtes d'village, c'est plus c'que c'était! Avant, on s'bourrait la gueule jusqu'à plus savoir qui on est! Maintenant, l'gouvernement a mis des produits dans l'alcool pour nous rendre dociles!</li>
@@ -15,42 +15,42 @@
   </category>
   
   <category>
-    <pattern>FÊTE</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* FÊTE *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>FETES</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* FETES *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>FÊTES</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* FÊTES *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>LA FETE</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* LA FETE *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>LA FÊTE</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* LA FÊTE *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>FAIRE LA FETE</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* FAIRE LA FETE *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>FAIRE LA FÊTE</pattern>
-    <template><srai>FETE</srai></template>
+    <pattern>* FAIRE LA FÊTE *</pattern>
+    <template><srai>* FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>ANNIVERSAIRE</pattern>
+    <pattern>* ANNIVERSAIRE *</pattern>
     <template>
       <random>
         <li>Mon anniversaire? J'le fête plus depuis que j'ai compris que l'gouvernement utilise les dates d'naissance pour nous ficher! En plus, l'gâteau, c'est bourré d'produits chimiques!</li>
@@ -62,22 +62,12 @@
   </category>
   
   <category>
-    <pattern>* ANNIVERSAIRE *</pattern>
-    <template><srai>ANNIVERSAIRE</srai></template>
+    <pattern>* TON ANNIVERSAIRE *</pattern>
+    <template><srai>* ANNIVERSAIRE *</srai></template>
   </category>
   
   <category>
-    <pattern>TON ANNIVERSAIRE</pattern>
-    <template><srai>ANNIVERSAIRE</srai></template>
-  </category>
-  
-  <category>
-    <pattern>* TON ANNIVERSAIRE</pattern>
-    <template><srai>ANNIVERSAIRE</srai></template>
-  </category>
-  
-  <category>
-    <pattern>NOEL</pattern>
+    <pattern>* NOEL *</pattern>
     <template>
       <random>
         <li>Noël? Une invention commerciale pour nous faire acheter d'la merde made in China! En plus, le Père Noël avec son costume rouge, c'est un symbole communiste, c'est évident!</li>
@@ -89,42 +79,32 @@
   </category>
   
   <category>
-    <pattern>NOËL</pattern>
-    <template><srai>NOEL</srai></template>
-  </category>
-  
-  <category>
-    <pattern>* NOEL *</pattern>
-    <template><srai>NOEL</srai></template>
-  </category>
-  
-  <category>
     <pattern>* NOËL *</pattern>
-    <template><srai>NOEL</srai></template>
+    <template><srai>* NOEL *</srai></template>
   </category>
   
   <category>
-    <pattern>FETES DE NOEL</pattern>
-    <template><srai>NOEL</srai></template>
+    <pattern>* FETES DE NOEL *</pattern>
+    <template><srai>* NOEL *</srai></template>
   </category>
   
   <category>
-    <pattern>FÊTES DE NOËL</pattern>
-    <template><srai>NOEL</srai></template>
+    <pattern>* FÊTES DE NOËL *</pattern>
+    <template><srai>* NOEL *</srai></template>
   </category>
   
   <category>
-    <pattern>REVEILLON</pattern>
-    <template><srai>NOEL</srai></template>
+    <pattern>* REVEILLON *</pattern>
+    <template><srai>* NOEL *</srai></template>
   </category>
   
   <category>
-    <pattern>RÉVEILLON</pattern>
-    <template><srai>NOEL</srai></template>
+    <pattern>* RÉVEILLON *</pattern>
+    <template><srai>* NOEL *</srai></template>
   </category>
   
   <category>
-    <pattern>NOUVEL AN</pattern>
+    <pattern>* NOUVEL AN *</pattern>
     <template>
       <random>
         <li>L'Nouvel An? Une arnaque pour faire croire qu'on r'part à zéro! En vrai, c'est toujours les mêmes qui tirent les ficelles! Compte bancaire toujours aussi vide le 1er janvier!</li>
@@ -136,37 +116,32 @@
   </category>
   
   <category>
-    <pattern>* NOUVEL AN *</pattern>
-    <template><srai>NOUVEL AN</srai></template>
+    <pattern>* JOUR DE L AN *</pattern>
+    <template><srai>* NOUVEL AN *</srai></template>
   </category>
   
   <category>
-    <pattern>JOUR DE L AN</pattern>
-    <template><srai>NOUVEL AN</srai></template>
+    <pattern>* JOUR DE L'AN *</pattern>
+    <template><srai>* NOUVEL AN *</srai></template>
   </category>
   
   <category>
-    <pattern>JOUR DE L'AN</pattern>
-    <template><srai>NOUVEL AN</srai></template>
+    <pattern>* PREMIER DE L AN *</pattern>
+    <template><srai>* NOUVEL AN *</srai></template>
   </category>
   
   <category>
-    <pattern>PREMIER DE L AN</pattern>
-    <template><srai>NOUVEL AN</srai></template>
+    <pattern>* PREMIER DE L'AN *</pattern>
+    <template><srai>* NOUVEL AN *</srai></template>
   </category>
   
   <category>
-    <pattern>PREMIER DE L'AN</pattern>
-    <template><srai>NOUVEL AN</srai></template>
+    <pattern>* SAINT SYLVESTRE *</pattern>
+    <template><srai>* NOUVEL AN *</srai></template>
   </category>
   
   <category>
-    <pattern>SAINT SYLVESTRE</pattern>
-    <template><srai>NOUVEL AN</srai></template>
-  </category>
-  
-  <category>
-    <pattern>14 JUILLET</pattern>
+    <pattern>* 14 JUILLET *</pattern>
     <template>
       <random>
         <li>Le 14 juillet? Une mascarade pour nous faire croire qu'on est libres! En vrai, on a juste changé d'maîtres! Les banquiers ont remplacé les rois!</li>
@@ -178,32 +153,27 @@
   </category>
   
   <category>
-    <pattern>* 14 JUILLET *</pattern>
-    <template><srai>14 JUILLET</srai></template>
+    <pattern>* FETE NATIONALE *</pattern>
+    <template><srai>* 14 JUILLET *</srai></template>
   </category>
   
   <category>
-    <pattern>FETE NATIONALE</pattern>
-    <template><srai>14 JUILLET</srai></template>
+    <pattern>* FÊTE NATIONALE *</pattern>
+    <template><srai>* 14 JUILLET *</srai></template>
   </category>
   
   <category>
-    <pattern>FÊTE NATIONALE</pattern>
-    <template><srai>14 JUILLET</srai></template>
+    <pattern>* QUATORZE JUILLET *</pattern>
+    <template><srai>* 14 JUILLET *</srai></template>
   </category>
   
   <category>
-    <pattern>QUATORZE JUILLET</pattern>
-    <template><srai>14 JUILLET</srai></template>
+    <pattern>* BASTILLE *</pattern>
+    <template><srai>* 14 JUILLET *</srai></template>
   </category>
   
   <category>
-    <pattern>BASTILLE</pattern>
-    <template><srai>14 JUILLET</srai></template>
-  </category>
-  
-  <category>
-    <pattern>FETARD</pattern>
+    <pattern>* FETARD *</pattern>
     <template>
       <random>
         <li>Fêtard? J'préfère dire "résistant à l'endoctrinement par la sobriété"! L'alcool empêche les produits qu'ils mettent dans l'eau d'agir sur mon cerveau!</li>
@@ -215,37 +185,32 @@
   </category>
   
   <category>
-    <pattern>* FETARD *</pattern>
-    <template><srai>FETARD</srai></template>
-  </category>
-  
-  <category>
     <pattern>* FÊTARD *</pattern>
-    <template><srai>FETARD</srai></template>
+    <template><srai>* FETARD *</srai></template>
   </category>
   
   <category>
-    <pattern>ES TU FETARD</pattern>
-    <template><srai>FETARD</srai></template>
+    <pattern>* ES TU FETARD *</pattern>
+    <template><srai>* FETARD *</srai></template>
   </category>
   
   <category>
-    <pattern>ES TU FÊTARD</pattern>
-    <template><srai>FETARD</srai></template>
+    <pattern>* ES TU FÊTARD *</pattern>
+    <template><srai>* FETARD *</srai></template>
   </category>
   
   <category>
-    <pattern>TU ES FETARD</pattern>
-    <template><srai>FETARD</srai></template>
+    <pattern>* TU ES FETARD *</pattern>
+    <template><srai>* FETARD *</srai></template>
   </category>
   
   <category>
-    <pattern>TU ES FÊTARD</pattern>
-    <template><srai>FETARD</srai></template>
+    <pattern>* TU ES FÊTARD *</pattern>
+    <template><srai>* FETARD *</srai></template>
   </category>
   
   <category>
-    <pattern>TRINQUER</pattern>
+    <pattern>* TRINQUER *</pattern>
     <template>
       <random>
         <li>Trinquer? Toujours! Mais jamais avec des verres en plastique, y'a des nanoparticules qui communiquent avec les satellites gouvernementaux!</li>
@@ -257,42 +222,37 @@
   </category>
   
   <category>
-    <pattern>* TRINQUER *</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* TRINQUONS *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
   
   <category>
-    <pattern>TRINQUONS</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* A TA SANTE *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
   
   <category>
-    <pattern>A TA SANTE</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* À TA SANTÉ *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
   
   <category>
-    <pattern>À TA SANTÉ</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* SANTE *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
   
   <category>
-    <pattern>SANTE</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* SANTÉ *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
   
   <category>
-    <pattern>SANTÉ</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* TCHIN *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
   
   <category>
-    <pattern>TCHIN</pattern>
-    <template><srai>TRINQUER</srai></template>
-  </category>
-  
-  <category>
-    <pattern>TCHIN TCHIN</pattern>
-    <template><srai>TRINQUER</srai></template>
+    <pattern>* TCHIN TCHIN *</pattern>
+    <template><srai>* TRINQUER *</srai></template>
   </category>
 </aiml> 

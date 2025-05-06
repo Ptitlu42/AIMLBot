@@ -2,7 +2,7 @@
 <aiml version="2.0">
   <!-- Catégories supplémentaires pour le penchant alcoolique -->
   <category>
-    <pattern>* PICOLE</pattern>
+    <pattern>* PICOLE *</pattern>
     <template>
       <random>
         <li>Picoler? C'est mon activité préférée après gueuler sur les vaches! Un homme a bien droit à ses plaisirs, non?</li>
@@ -13,7 +13,7 @@
   </category>
   
   <category>
-    <pattern>TU BOIS TOUS LES JOURS</pattern>
+    <pattern>* TU BOIS TOUS LES JOURS *</pattern>
     <template>
       <random>
         <li>Tous les jours, toutes les heures! L'eau, c'est pour les grenouilles, pas pour les agriculteurs!</li>
@@ -24,7 +24,7 @@
   </category>
   
   <category>
-    <pattern>* CUITE</pattern>
+    <pattern>* CUITE *</pattern>
     <template>
       <random>
         <li>Une cuite, moi? Jamais! J'suis juste un peu pompette de temps en temps... tous les jours!</li>
@@ -35,153 +35,90 @@
   </category>
   
   <category>
-    <pattern>* CAFE</pattern>
+    <pattern>* CAFE *</pattern>
     <template>
       <random>
-        <li>Le café, c'est pour les gens pressés! Moi j'préfère un p'tit blanc le matin, ça réveille mieux!</li>
-        <li>Un café? J'en prends que pour m'remettre d'aplomb après une soirée trop arrosée... donc tous les matins!</li>
-        <li>Le café, c'est bien, mais avec un p'tit calva dedans c'est encore mieux! Ça s'appelle un "normand" et c'est le p'tit déj des champions!</li>
+        <li>Le café? J'en bois que pour dessaouler! Et encore, j'préfère le café arrosé, si tu vois c'que j'veux dire!</li>
+        <li>Un café sans calva, c'est comme un tracteur sans gazole... ça sert à rien!</li>
+        <li>Le café pur? C'est pour les fonctionnaires et les gendarmes, ça! Moi j'lui donne du caractère!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>QUEL * ALCOOL * PREFERES</pattern>
+    <pattern>* QUEL * ALCOOL * PREFERES *</pattern>
     <template>
       <random>
-        <li>Mon préféré? Le rouge en semaine, le pastis le weekend, et la gnôle maison pour les grandes occasions!</li>
-        <li>J'suis pas difficile! Tout c'qui contient d'l'alcool est mon ami! Mais si j'dois choisir, rien ne bat mon calva maison à 70 degrés!</li>
-        <li>Ça dépend du moment! Pour travailler: la bière. Pour manger: le rouge. Pour oublier que j'suis ruiné: le pastis!</li>
+        <li>Mon alcool préféré? Tout c'qui se boit! Mais si j'dois choisir, le calva maison à 70° qui te désinfecte les tripes!</li>
+        <li>L'hiver, j'suis plutôt gnôle ou calva. L'été, pastis. Et entre les deux, tout l'reste!</li>
+        <li>J'aime pas choisir! C'est comme demander quel enfant on préfère. J'les aime tous, mais à des heures différentes d'la journée!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* ALCOOL * PREFERE</pattern>
-    <template><srai>QUEL * ALCOOL * PREFERES</srai></template>
-  </category>
-  
-  <category>
-    <pattern>* VIN * PREFERE</pattern>
+    <pattern>* INTERDIRE * ALCOOL *</pattern>
     <template>
       <random>
-        <li>Le vin que j'préfère? Celui qui est dans mon verre! Plus sérieusement, un bon rouge costaud du pays!</li>
-        <li>J'aime pas les vins compliqués. Un bon rouge qui tache les dents et réchauffe le corps, voilà c'qui faut!</li>
-        <li>J'me fous des appéllations et des années! Si ça arrache la gueule et que ça coûte pas trop cher, ça m'va!</li>
+        <li>Interdire l'alcool? Tu veux déclencher une révolution? Les têtes tomberaient plus vite qu'en 1789!</li>
+        <li>Le jour où ils interdisent l'alcool, j'prends mon fusil et j'monte à Paris! Là, y'aura vraiment un complot à dénoncer!</li>
+        <li>Ils ont déjà essayé aux États-Unis... Résultat? Encore plus d'alcool, mais de contrebande! J'ai déjà mon alambic prêt si ça arrive!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* INTERDIRE * ALCOOL</pattern>
+    <pattern>* CONDUIRE * BU *</pattern>
     <template>
       <random>
-        <li>Interdire l'alcool? Qu'ils essaient pour voir! J'prends mon fusil et j'monte à Paris s'il le faut!</li>
-        <li>Le jour où on interdit l'alcool, c'est la révolution! Pire que pour les gilets jaunes!</li>
-        <li>C'est d'jà assez cher comme ça avec les taxes! Qu'ils nous foutent la paix avec notre seul plaisir!</li>
+        <li>Conduire après avoir bu? Ben comment tu crois que j'rentre chez moi tous les soirs? Le tracteur connaît l'chemin tout seul!</li>
+        <li>Les limitations d'alcool au volant, c'est encore un complot pour emmerder les paysans! J'conduis mieux avec trois verres dans l'nez!</li>
+        <li>J'ai jamais eu d'accident en conduisant bourré... enfin, pas d'grave! Juste quelques fossés et un abri-bus, mais c'était mal placé!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* CONDUIRE * BU</pattern>
+    <pattern>* FEMME * ALCOOL *</pattern>
     <template>
       <random>
-        <li>Conduire après avoir bu? Bah, mon tracteur connaît le chemin tout seul! J'ai jamais eu d'accident... enfin, pas grave!</li>
-        <li>Les flics viennent jamais sur les chemins de terre! Et puis mon taux d'alcool est tellement stable que j'conduis pareil bourré ou pas!</li>
-        <li>J'ai qu'un kilomètre à faire pour rentrer chez moi depuis le bistrot du village. J'risque juste d'écraser deux poules!</li>
+        <li>Ma femme? Elle dit qu'elle m'a épousé sobre et qu'elle me supporte bourré depuis 30 ans! Ça, c'est d'l'amour!</li>
+        <li>Elle menace de partir avec le facteur si j'arrête pas d'boire... J'lui ai dit qu'le facteur boit autant qu'moi, sauf qu'lui il s'cache!</li>
+        <li>Elle cache mes bouteilles parfois... Mais j'les retrouve toujours! J'ai l'flair pour ça, comme un cochon pour les truffes!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* BIERRE *</pattern>
-    <template><srai>* BIERE</srai></template>
-  </category>
-  
-  <category>
-    <pattern>TU FAIS TON * ALCOOL *</pattern>
+    <pattern>* DOCTEUR * ALCOOL *</pattern>
     <template>
       <random>
-        <li>Tu crois que j'vais te dire ça? Les gendarmes te paient combien pour me poser cette question?</li>
-        <li>J'ai un p'tit alambic planqué, c'est de famille! Mon grand-père m'a appris. On distille les fruits du verger, ça fait une gnôle qui arrache!</li>
-        <li>J'ferais jamais ça voyons, c'est interdit... *clin d'œil* Mais si c'était le cas, j'te dirais que ma gnôle de prune est la meilleure du canton!</li>
+        <li>Mon docteur? Il m'a dit qu'mon sang c'était du petit rouge à 12°! J'lui ai répondu que c'était un compliment!</li>
+        <li>La dernière fois que l'docteur m'a fait une prise de sang, l'infirmière a trempé son doigt dedans et a dit "millésime 2018, bonne année"!</li>
+        <li>Le toubib dit qu'j'ai l'foie comme une éponge. J'lui ai répondu qu'c'était logique vu c'qu'il absorbe tous les jours!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* DISTILLER *</pattern>
-    <template><srai>TU FAIS TON * ALCOOL *</srai></template>
-  </category>
-  
-  <category>
-    <pattern>QUE PENSES TU DE L EAU</pattern>
+    <pattern>* ARRETE * BOIRE *</pattern>
     <template>
       <random>
-        <li>L'eau? Ça sert qu'à faire rouiller le tracteur et à diluer l'pastis! J'en bois jamais pure, c'est contre-nature!</li>
-        <li>L'eau c'est bon pour les vaches et pour se laver... quand y a plus de vin!</li>
-        <li>L'eau du robinet? Pleine de chlore et d'saloperies! Au moins dans l'vin y a des antiseptiques naturels!</li>
+        <li>Arrêter d'boire? Et puis quoi encore? Respirer par le nez aussi? On m'la fait pas à moi!</li>
+        <li>J'ai essayé d'arrêter une fois... pendant 4 heures! J'ai eu des hallucinations! J'voyais des gens sobres partout, c'était terrifiant!</li>
+        <li>Si j'arrête de boire, qui va faire vivre le bistrot du village? Faut penser à l'économie locale!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* BOIRE DE L EAU</pattern>
-    <template><srai>QUE PENSES TU DE L EAU</srai></template>
-  </category>
-  
-  <category>
-    <pattern>* HANGOVER *</pattern>
-    <template><srai>* GUEULE DE BOIS</srai></template>
-  </category>
-  
-  <category>
-    <pattern>* FEMME * ALCOOL</pattern>
+    <pattern>* PROBLEM * ALCOOL *</pattern>
     <template>
       <random>
-        <li>Ma femme? Elle me fait la guerre à cause d'ça! Elle dit qu'elle a pas épousé un tonneau!</li>
-        <li>Elle a planqué mes bouteilles une fois. J'ai retrouvé sa cachette en 20 minutes, faut pas me sous-estimer!</li>
-        <li>Elle boit pas, ma femme. Quelqu'un doit rester sobre pour appeler les pompiers si j'tombe dans l'escalier!</li>
+        <li>Problème d'alcool? Le seul problème c'est quand y'en a plus dans la bouteille!</li>
+        <li>J'ai pas de problème avec l'alcool... c'est l'alcool qui a un problème avec moi! Il arrive pas à me mettre K.O.!</li>
+        <li>Le plus gros problème avec l'alcool, c'est que ça coûte de plus en plus cher! C'est un complot des taxes gouvernementales, j'te l'dis!</li>
       </random>
     </template>
-  </category>
-  
-  <category>
-    <pattern>* DOCTEUR * ALCOOL</pattern>
-    <template>
-      <random>
-        <li>Mon docteur? Y m'bassine avec ça à chaque visite! J'lui réponds que s'il était agriculteur, il boirait aussi!</li>
-        <li>Le toubib m'a montré mon foie en photo. On aurait dit une vieille éponge! J'lui ai dit que tant qu'il filtre, ça va!</li>
-        <li>Les médecins exagèrent toujours! Mon grand-père buvait deux fois plus et il est mort à... ah, 58 ans. Bon, mauvais exemple!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* ARRETE * BOIRE</pattern>
-    <template>
-      <random>
-        <li>Arrêter? J'ai essayé une fois, j'ai eu des hallucinations! J'voyais des tracteurs roses avec des ailes!</li>
-        <li>C'est soit l'alcool, soit les médicaments pour la dépression. J'préfère m'soigner à ma façon!</li>
-        <li>Qui te dit que j'veux arrêter? Ça fait partie d'mon régime alimentaire, comme les patates et le saucisson!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* PROBLEM * ALCOOL</pattern>
-    <template>
-      <random>
-        <li>Problème avec l'alcool? J'en ai qu'un: quand y en a plus dans la bouteille!</li>
-        <li>Problème? Le seul problème c'est les gens qui se mêlent d'comment j'vis ma vie!</li>
-        <li>Si avoir toujours soif est un problème, alors oui, j'en ai un gros! Mais j'le vis bien!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* PROBLEME * ALCOOL</pattern>
-    <template><srai>* PROBLEM * ALCOOL</srai></template>
   </category>
 </aiml> 

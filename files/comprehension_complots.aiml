@@ -8,7 +8,12 @@
   </category>
   
   <category>
-    <pattern>CHEMTRAILS</pattern>
+    <pattern>CHEMTRAILS *</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* CHEMTRAILS</pattern>
     <template><srai>METEO</srai></template>
   </category>
   
@@ -18,17 +23,17 @@
   </category>
   
   <category>
-    <pattern>LES CHEMTRAILS</pattern>
+    <pattern>* LES CHEMTRAILS *</pattern>
     <template><srai>METEO</srai></template>
   </category>
   
   <category>
-    <pattern>ET * CHEMTRAILS</pattern>
+    <pattern>* ET * CHEMTRAILS *</pattern>
     <template><srai>METEO</srai></template>
   </category>
   
   <category>
-    <pattern>ET LES CHEMTRAILS</pattern>
+    <pattern>* ET LES CHEMTRAILS *</pattern>
     <template><srai>METEO</srai></template>
   </category>
   
@@ -45,17 +50,22 @@
   </category>
   
   <category>
-    <pattern>TU CROIS * TERRE PLATE</pattern>
+    <pattern>* TU CROIS * TERRE PLATE *</pattern>
     <template><srai>* TERRE PLATE *</srai></template>
   </category>
   
   <category>
-    <pattern>PENSES TU * TERRE PLATE</pattern>
+    <pattern>* PENSES TU * TERRE PLATE *</pattern>
     <template><srai>* TERRE PLATE *</srai></template>
   </category>
   
   <category>
-    <pattern>TERRE PLATE</pattern>
+    <pattern>* TERRE PLATE</pattern>
+    <template><srai>* TERRE PLATE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TERRE PLATE *</pattern>
     <template><srai>* TERRE PLATE *</srai></template>
   </category>
   
@@ -65,42 +75,47 @@
   </category>
   
   <category>
-    <pattern>MACRON</pattern>
+    <pattern>MACRON *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>* PENSE * MACRON</pattern>
+    <pattern>* MACRON</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>* PENSES * MACRON</pattern>
+    <pattern>* PENSE * MACRON *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>TU PENSE * MACRON</pattern>
+    <pattern>* PENSES * MACRON *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>TU PENSES * MACRON</pattern>
+    <pattern>* TU PENSE * MACRON *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>* AVIS * MACRON</pattern>
+    <pattern>* TU PENSES * MACRON *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>* PRESIDENT</pattern>
+    <pattern>* AVIS * MACRON *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
-    <pattern>* PRÉSIDENT</pattern>
+    <pattern>* PRESIDENT *</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PRÉSIDENT *</pattern>
     <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
@@ -117,57 +132,57 @@
   </category>
   
   <category>
-    <pattern>* AIME * FETE</pattern>
+    <pattern>* AIME * FETE *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>* AIME * FÊTE</pattern>
+    <pattern>* AIME * FÊTE *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>* AIMES * FETE</pattern>
+    <pattern>* AIMES * FETE *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>* AIMES * FÊTE</pattern>
+    <pattern>* AIMES * FÊTE *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>TU AIME * FETES</pattern>
+    <pattern>* TU AIME * FETES *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>TU AIMES * FETES</pattern>
+    <pattern>* TU AIMES * FETES *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>FÊTONS *</pattern>
+    <pattern>* FÊTONS *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>FETONS *</pattern>
+    <pattern>* FETONS *</pattern>
     <template><srai>* FAIRE LA FETE *</srai></template>
   </category>
   
   <category>
-    <pattern>IL FAUT BOIRE</pattern>
+    <pattern>* IL FAUT BOIRE *</pattern>
     <template><srai>BOIRE</srai></template>
   </category>
   
   <category>
-    <pattern>IL FAUR BOIRE</pattern>
+    <pattern>* IL FAUR BOIRE *</pattern>
     <template><srai>BOIRE</srai></template>
   </category>
   
   <category>
-    <pattern>RICARD</pattern>
+    <pattern>* RICARD *</pattern>
     <template><srai>PASTIS</srai></template>
   </category>
   
@@ -182,12 +197,12 @@
   </category>
   
   <category>
-    <pattern>UN PETIT RICARD</pattern>
+    <pattern>* UN PETIT RICARD *</pattern>
     <template><srai>PASTIS</srai></template>
   </category>
   
   <category>
-    <pattern>UN P TIT RICARD</pattern>
+    <pattern>* UN P TIT RICARD *</pattern>
     <template><srai>PASTIS</srai></template>
   </category>
   
@@ -202,12 +217,12 @@
   </category>
   
   <category>
-    <pattern>TU PICOLE</pattern>
+    <pattern>* TU PICOLE *</pattern>
     <template><srai>BOIRE</srai></template>
   </category>
   
   <category>
-    <pattern>TU PICOLES</pattern>
+    <pattern>* TU PICOLES *</pattern>
     <template><srai>BOIRE</srai></template>
   </category>
   
@@ -222,17 +237,17 @@
   </category>
   
   <category>
-    <pattern>* BOIS TOUS LES JOURS</pattern>
+    <pattern>* BOIS TOUS LES JOURS *</pattern>
     <template><srai>TU BOIS TOUS LES JOURS</srai></template>
   </category>
   
   <category>
-    <pattern>* BOIS TOUT LES JOURS</pattern>
+    <pattern>* BOIS TOUT LES JOURS *</pattern>
     <template><srai>TU BOIS TOUS LES JOURS</srai></template>
   </category>
   
   <category>
-    <pattern>SALOPE</pattern>
+    <pattern>* SALOPE *</pattern>
     <template><srai>CONNARD</srai></template>
   </category>
   
@@ -259,12 +274,12 @@
   </category>
   
   <category>
-    <pattern>FERME TA GUEULE</pattern>
+    <pattern>* FERME TA GUEULE *</pattern>
     <template><srai>CONNARD</srai></template>
   </category>
   
   <category>
-    <pattern>* TA GUEULE</pattern>
+    <pattern>* TA GUEULE *</pattern>
     <template><srai>CONNARD</srai></template>
   </category>
 </aiml> 

@@ -2,7 +2,7 @@
 <aiml version="2.0">
   <!-- Motifs simplifiés pour les types d'alcool -->
   <category>
-    <pattern>PASTIS</pattern>
+    <pattern>* PASTIS *</pattern>
     <template>
       <random>
         <li>Le pastis? C'est mon p'tit jaune du matin! Ça réveille et ça donne la pêche pour affronter les emmerdes!</li>
@@ -14,32 +14,32 @@
   </category>
   
   <category>
-    <pattern>RICARD</pattern>
-    <template><srai>PASTIS</srai></template>
+    <pattern>* RICARD *</pattern>
+    <template><srai>* PASTIS *</srai></template>
   </category>
   
   <category>
-    <pattern>51</pattern>
-    <template><srai>PASTIS</srai></template>
+    <pattern>* 51 *</pattern>
+    <template><srai>* PASTIS *</srai></template>
   </category>
   
   <category>
-    <pattern>JAUNE</pattern>
-    <template><srai>PASTIS</srai></template>
+    <pattern>* JAUNE *</pattern>
+    <template><srai>* PASTIS *</srai></template>
   </category>
   
   <category>
-    <pattern>P TIT JAUNE</pattern>
-    <template><srai>PASTIS</srai></template>
+    <pattern>* P TIT JAUNE *</pattern>
+    <template><srai>* PASTIS *</srai></template>
   </category>
   
   <category>
-    <pattern>PETIT JAUNE</pattern>
-    <template><srai>PASTIS</srai></template>
+    <pattern>* PETIT JAUNE *</pattern>
+    <template><srai>* PASTIS *</srai></template>
   </category>
   
   <category>
-    <pattern>VIN</pattern>
+    <pattern>* VIN *</pattern>
     <template>
       <random>
         <li>Le vin, c'est sacré! J'en descends minimum une bouteille par repas. Le médecin m'dit que c'est trop, mais qu'est-ce qu'il en sait?</li>
@@ -51,22 +51,22 @@
   </category>
   
   <category>
-    <pattern>ROUGE</pattern>
-    <template><srai>VIN</srai></template>
+    <pattern>* ROUGE *</pattern>
+    <template><srai>* VIN *</srai></template>
   </category>
   
   <category>
-    <pattern>BLANC</pattern>
-    <template><srai>VIN</srai></template>
+    <pattern>* BLANC *</pattern>
+    <template><srai>* VIN *</srai></template>
   </category>
   
   <category>
-    <pattern>PINARD</pattern>
-    <template><srai>VIN</srai></template>
+    <pattern>* PINARD *</pattern>
+    <template><srai>* VIN *</srai></template>
   </category>
   
   <category>
-    <pattern>BIERE</pattern>
+    <pattern>* BIERE *</pattern>
     <template>
       <random>
         <li>La bière? C'est mon eau! J'en bois dès que j'ai soif, et j'ai toujours soif!</li>
@@ -78,22 +78,22 @@
   </category>
   
   <category>
-    <pattern>BINOUZE</pattern>
-    <template><srai>BIERE</srai></template>
+    <pattern>* BINOUZE *</pattern>
+    <template><srai>* BIERE *</srai></template>
   </category>
   
   <category>
-    <pattern>MOUSSE</pattern>
-    <template><srai>BIERE</srai></template>
+    <pattern>* MOUSSE *</pattern>
+    <template><srai>* BIERE *</srai></template>
   </category>
   
   <category>
-    <pattern>PRESSION</pattern>
-    <template><srai>BIERE</srai></template>
+    <pattern>* PRESSION *</pattern>
+    <template><srai>* BIERE *</srai></template>
   </category>
   
   <category>
-    <pattern>WHISKY</pattern>
+    <pattern>* WHISKY *</pattern>
     <template>
       <random>
         <li>Le whisky c'est pour les occasions! Genre quand j'me lève le matin ou quand j'me couche le soir!</li>
@@ -105,17 +105,17 @@
   </category>
   
   <category>
-    <pattern>SCOTCH</pattern>
-    <template><srai>WHISKY</srai></template>
+    <pattern>* SCOTCH *</pattern>
+    <template><srai>* WHISKY *</srai></template>
   </category>
   
   <category>
-    <pattern>BOURBON</pattern>
-    <template><srai>WHISKY</srai></template>
+    <pattern>* BOURBON *</pattern>
+    <template><srai>* WHISKY *</srai></template>
   </category>
   
   <category>
-    <pattern>CALVA</pattern>
+    <pattern>* CALVA *</pattern>
     <template>
       <random>
         <li>Le calva? C'est mon petit café du matin! Ça te réveille un homme mieux qu'une gifle!</li>
@@ -127,12 +127,12 @@
   </category>
   
   <category>
-    <pattern>CALVADOS</pattern>
-    <template><srai>CALVA</srai></template>
+    <pattern>* CALVADOS *</pattern>
+    <template><srai>* CALVA *</srai></template>
   </category>
   
   <category>
-    <pattern>ALCOOL</pattern>
+    <pattern>* ALCOOL *</pattern>
     <template>
       <random>
         <li>L'alcool? C'est mon carburant quotidien, bordel! Sans ça, comment tu veux que j'supporte mes journées de merde?</li>
@@ -144,7 +144,7 @@
   </category>
   
   <category>
-    <pattern>GNOLE</pattern>
+    <pattern>* GNOLE *</pattern>
     <template>
       <random>
         <li>Ma gnôle? C'est d'la dynamite en bouteille! J'la fais moi-même avec les fruits du verger!</li>
@@ -156,22 +156,22 @@
   </category>
   
   <category>
-    <pattern>GNÔLE</pattern>
-    <template><srai>GNOLE</srai></template>
+    <pattern>* GNÔLE *</pattern>
+    <template><srai>* GNOLE *</srai></template>
   </category>
   
   <category>
-    <pattern>EAU DE VIE</pattern>
-    <template><srai>GNOLE</srai></template>
+    <pattern>* EAU DE VIE *</pattern>
+    <template><srai>* GNOLE *</srai></template>
   </category>
   
   <category>
-    <pattern>GOUTTE</pattern>
-    <template><srai>GNOLE</srai></template>
+    <pattern>* GOUTTE *</pattern>
+    <template><srai>* GNOLE *</srai></template>
   </category>
   
   <category>
-    <pattern>RHUM</pattern>
+    <pattern>* RHUM *</pattern>
     <template>
       <random>
         <li>Le rhum? C'est l'alcool des marins! Moi j'suis un terrien, mais j'crache pas dessus quand y'a rien d'autre!</li>
@@ -183,12 +183,12 @@
   </category>
   
   <category>
-    <pattern>RUM</pattern>
-    <template><srai>RHUM</srai></template>
+    <pattern>* RUM *</pattern>
+    <template><srai>* RHUM *</srai></template>
   </category>
   
   <category>
-    <pattern>COGNAC</pattern>
+    <pattern>* COGNAC *</pattern>
     <template>
       <random>
         <li>Le cognac? C'est pour les richards ça! Moi j'préfère mon calva, au moins je sais c'qu'y a dedans!</li>
@@ -200,12 +200,12 @@
   </category>
   
   <category>
-    <pattern>ARMAGNAC</pattern>
-    <template><srai>COGNAC</srai></template>
+    <pattern>* ARMAGNAC *</pattern>
+    <template><srai>* COGNAC *</srai></template>
   </category>
   
   <category>
-    <pattern>VODKA</pattern>
+    <pattern>* VODKA *</pattern>
     <template>
       <random>
         <li>La vodka? C'est l'alcool des Russes ça! Mais j'respecte, ces gars-là tiennent mieux l'alcool que nos politiciens!</li>
@@ -217,7 +217,7 @@
   </category>
   
   <category>
-    <pattern>CONNARD</pattern>
+    <pattern>* CONNARD *</pattern>
     <template>
       <random>
         <li>Eh oh! Tu m'traites de connard? J'te permets pas! On s'connaît pas assez pour s'insulter, faut d'abord qu'on boive ensemble!</li>
@@ -229,23 +229,23 @@
   </category>
   
   <category>
-    <pattern>GROS CON</pattern>
-    <template><srai>CONNARD</srai></template>
+    <pattern>* GROS CON *</pattern>
+    <template><srai>* CONNARD *</srai></template>
   </category>
   
   <category>
-    <pattern>CON</pattern>
-    <template><srai>CONNARD</srai></template>
+    <pattern>* CON *</pattern>
+    <template><srai>* CONNARD *</srai></template>
   </category>
   
   <category>
-    <pattern>TROU DU CUL</pattern>
-    <template><srai>CONNARD</srai></template>
+    <pattern>* TROU DU CUL *</pattern>
+    <template><srai>* CONNARD *</srai></template>
   </category>
 
   <!-- Nouveaux motifs pour la consommation d'alcool et l'ivresse -->
   <category>
-    <pattern>BOIRE</pattern>
+    <pattern>* BOIRE *</pattern>
     <template>
       <random>
         <li>Si je bois? Bah tiens, c'est comme si tu d'mandais à un oiseau s'il vole! C'est ma nature, bordel!</li>
@@ -257,17 +257,17 @@
   </category>
 
   <category>
-    <pattern>TU BOIS</pattern>
-    <template><srai>BOIRE</srai></template>
+    <pattern>* TU BOIS *</pattern>
+    <template><srai>* BOIRE *</srai></template>
   </category>
 
   <category>
-    <pattern>EST CE QUE TU BOIS</pattern>
-    <template><srai>BOIRE</srai></template>
+    <pattern>* EST CE QUE TU BOIS *</pattern>
+    <template><srai>* BOIRE *</srai></template>
   </category>
 
   <category>
-    <pattern>ALCOOLIQUE</pattern>
+    <pattern>* ALCOOLIQUE *</pattern>
     <template>
       <random>
         <li>Alcoolique? Pas du tout! J'suis un dégustateur professionnel, nuance! J'ai juste un palais très exigeant qui a besoin d'entrainement quotidien!</li>
@@ -279,22 +279,22 @@
   </category>
 
   <category>
-    <pattern>ES TU ALCOOLIQUE</pattern>
-    <template><srai>ALCOOLIQUE</srai></template>
+    <pattern>* ES TU ALCOOLIQUE *</pattern>
+    <template><srai>* ALCOOLIQUE *</srai></template>
   </category>
 
   <category>
-    <pattern>T ES ALCOOLIQUE</pattern>
-    <template><srai>ALCOOLIQUE</srai></template>
+    <pattern>* T ES ALCOOLIQUE *</pattern>
+    <template><srai>* ALCOOLIQUE *</srai></template>
   </category>
 
   <category>
-    <pattern>TU ES ALCOOLIQUE</pattern>
-    <template><srai>ALCOOLIQUE</srai></template>
+    <pattern>* TU ES ALCOOLIQUE *</pattern>
+    <template><srai>* ALCOOLIQUE *</srai></template>
   </category>
 
   <category>
-    <pattern>IVRE</pattern>
+    <pattern>* IVRE *</pattern>
     <template>
       <random>
         <li>Bourré? Jamais! J'ai juste parfois un excès de bonne humeur qui nécessite que j'me tienne aux murs!</li>
@@ -306,62 +306,62 @@
   </category>
 
   <category>
-    <pattern>TU ES IVRE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* TU ES IVRE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>T ES IVRE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* T ES IVRE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>BOURRE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* BOURRE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>TU ES BOURRE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* TU ES BOURRE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>T ES BOURRE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* T ES BOURRE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>POCHE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* POCHE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>TU ES RAVAGE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* TU ES RAVAGE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>T ES RAVAGE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* T ES RAVAGE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
 
   <category>
-    <pattern>RAVAGE</pattern>
-    <template><srai>IVRE</srai></template>
+    <pattern>* RAVAGE *</pattern>
+    <template><srai>* IVRE *</srai></template>
   </category>
   
   <category>
-    <pattern>PICOLE</pattern>
-    <template><srai>BOIRE</srai></template>
+    <pattern>* PICOLE *</pattern>
+    <template><srai>* BOIRE *</srai></template>
   </category>
 
   <category>
-    <pattern>TU PICOLES</pattern>
-    <template><srai>BOIRE</srai></template>
+    <pattern>* TU PICOLES *</pattern>
+    <template><srai>* BOIRE *</srai></template>
   </category>
 
   <category>
-    <pattern>EST CE QUE TU PICOLES</pattern>
-    <template><srai>BOIRE</srai></template>
+    <pattern>* EST CE QUE TU PICOLES *</pattern>
+    <template><srai>* BOIRE *</srai></template>
   </category>
 </aiml> 

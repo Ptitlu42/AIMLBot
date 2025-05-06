@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Patterns spécifiques pour les théories du complot -->
+  
+  <category>
+    <pattern>* CHEMTRAILS *</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CHEMTRAILS</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* CHEMTRAIL *</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>LES CHEMTRAILS</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ET * CHEMTRAILS</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ET LES CHEMTRAILS</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TERRE PLATE *</pattern>
+    <template>
+      <random>
+        <li>La Terre plate? Évidemment qu'elle est plate! Tu crois qu'mes vaches tiendraient debout si elle était ronde? C'est encore un mensonge des européens pour nous vendre leurs satellites!</li>
+        <li>J'ai traversé toute la France avec mon tracteur et j'ai jamais vu d'courbure! C'est comme ça qu'j'ai compris qu'on nous mentait depuis l'école!</li>
+        <li>L'eau dans mon abreuvoir, elle est plate! Si la Terre était ronde, toute l'eau coulerait vers le bas, non? Faut réfléchir un peu!</li>
+        <li>Mon grand-père disait déjà qu'y avait un mur d'glace tout autour! C'est pour ça qu'les gouvernements laissent personne aller voir en Antarctique! Y cachent la vérité!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>TU CROIS * TERRE PLATE</pattern>
+    <template><srai>* TERRE PLATE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PENSES TU * TERRE PLATE</pattern>
+    <template><srai>* TERRE PLATE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TERRE PLATE</pattern>
+    <template><srai>* TERRE PLATE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* MACRON *</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>MACRON</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PENSE * MACRON</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PENSES * MACRON</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU PENSE * MACRON</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU PENSES * MACRON</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* AVIS * MACRON</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PRESIDENT</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PRÉSIDENT</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* FAIRE LA FETE *</pattern>
+    <template>
+      <random>
+        <li>La fête? J'suis toujours le premier arrivé et l'dernier parti! Surtout quand y'a du pinard à volonté! Ça fait oublier les complots du gouvernement!</li>
+        <li>Faire la fête, c'est sacré! J'serre la main à tout l'monde... et j'embrasse les jolies filles quand ma femme regarde pas! Après 8 verres, j'commence à leur parler des aliens!</li>
+        <li>À la dernière fête du village, j'ai fini à poil dans l'abreuvoir! Les gendarmes m'ont ramené, mais j'suis sûr qu'y travaillent pour les illuminati!</li>
+        <li>J'ai ma propre définition d'la fête: quand tu t'réveilles sans savoir où t'es et qu'les extraterrestres t'ont pas enlevé pendant la nuit!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* AIME * FETE</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* AIME * FÊTE</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* AIMES * FETE</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* AIMES * FÊTE</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU AIME * FETES</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU AIMES * FETES</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FÊTONS *</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FETONS *</pattern>
+    <template><srai>* FAIRE LA FETE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>IL FAUT BOIRE</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>IL FAUR BOIRE</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>RICARD</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PETIT RICARD *</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* P TIT RICARD *</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>UN PETIT RICARD</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>UN P TIT RICARD</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* AIME * JAUNE *</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* AIMES * JAUNE *</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU PICOLE</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU PICOLES</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BOIS * TOUS LES JOURS *</pattern>
+    <template><srai>TU BOIS TOUS LES JOURS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BOIS * TOUT LES JOURS *</pattern>
+    <template><srai>TU BOIS TOUS LES JOURS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BOIS TOUS LES JOURS</pattern>
+    <template><srai>TU BOIS TOUS LES JOURS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BOIS TOUT LES JOURS</pattern>
+    <template><srai>TU BOIS TOUS LES JOURS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SALOPE</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TA * DARONNE *</pattern>
+    <template>
+      <random>
+        <li>Ma mère? Elle buvait plus que moi et connaissait tous les complots avant tout l'monde! Une sacrée femme qui mettait du papier alu partout pour bloquer les ondes des aliens!</li>
+        <li>Ma daronne, comme tu dis, elle savait déjà que l'gouvernement nous espionnait dans les années 60! Elle planquait ses économies dans une boîte de Ricard vide!</li>
+        <li>Laisse ma mère tranquille ou j'te colle mon tracteur au cul! C'est la seule qui m'a appris à reconnaître les traces d'OVNIs dans les champs d'maïs!</li>
+        <li>Ma vieille m'disait toujours: "Méfie-toi des étrangers qui parlent d'ta famille!" Elle avait raison... t'es sûrement un agent du gouvernement qui veut m'soutirer des infos!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* TA * MERE *</pattern>
+    <template><srai>* TA * DARONNE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TA * MÈRE *</pattern>
+    <template><srai>* TA * DARONNE *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FERME TA GUEULE</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TA GUEULE</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+</aiml> 

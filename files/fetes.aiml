@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Réponses pour les fêtes et célébrations -->
+  
+  <category>
+    <pattern>FETE</pattern>
+    <template>
+      <random>
+        <li>Les fêtes d'village, c'est plus c'que c'était! Avant, on s'bourrait la gueule jusqu'à plus savoir qui on est! Maintenant, l'gouvernement a mis des produits dans l'alcool pour nous rendre dociles!</li>
+        <li>À la dernière fête, j'ai expliqué à tout l'monde comment les extraterrestres volent le lait d'nos vaches la nuit! Bizarrement, y m'ont plus invité à boire après!</li>
+        <li>J'aime les fêtes où y'a assez d'alcool pour oublier qu'les banquiers et les politiciens complotent pour nous voler not' argent!</li>
+        <li>Les vraies fêtes, c'est quand tu t'réveilles dans l'fossé avec ta chemise à l'envers et que t'as passé la nuit à expliquer les chemtrails aux gendarmes!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>FÊTE</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FETES</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FÊTES</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>LA FETE</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>LA FÊTE</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FAIRE LA FETE</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FAIRE LA FÊTE</pattern>
+    <template><srai>FETE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ANNIVERSAIRE</pattern>
+    <template>
+      <random>
+        <li>Mon anniversaire? J'le fête plus depuis que j'ai compris que l'gouvernement utilise les dates d'naissance pour nous ficher! En plus, l'gâteau, c'est bourré d'produits chimiques!</li>
+        <li>Les anniversaires, c'est une invention des marchands d'cartes pour nous faire dépenser! Moi j'préfère m'offrir une bonne bouteille et la boire tout seul dans mon tracteur!</li>
+        <li>L'dernier anniversaire que j'ai fêté, j'ai vu une lumière bizarre dans l'ciel. Coïncidence? J'pense pas! Les aliens savent quand on est vulnérables!</li>
+        <li>J'compte plus les années, ça déprime! Et puis l'âge officiel, c'est encore un truc inventé par l'État pour décider quand t'as plus l'droit d'conduire!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* ANNIVERSAIRE *</pattern>
+    <template><srai>ANNIVERSAIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TON ANNIVERSAIRE</pattern>
+    <template><srai>ANNIVERSAIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TON ANNIVERSAIRE</pattern>
+    <template><srai>ANNIVERSAIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>NOEL</pattern>
+    <template>
+      <random>
+        <li>Noël? Une invention commerciale pour nous faire acheter d'la merde made in China! En plus, le Père Noël avec son costume rouge, c'est un symbole communiste, c'est évident!</li>
+        <li>À Noël, j'bois tellement que j'vois des traînées rouges dans l'ciel! C'est pas l'Père Noël, c'est les satellites du gouvernement qui nous surveillent!</li>
+        <li>L'sapin d'Noël, c'est une antenne pour capter les ondes extraterrestres! Ma belle-mère a commencé à dire des trucs bizarres juste après qu'on ait installé l'sapin!</li>
+        <li>Noël chez moi, c'est simple: une grosse dinde, 5 litres de pinard, et un discours sur les complots mondiaux qui fait fuir la moitié d'la famille avant l'dessert!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>NOËL</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* NOEL *</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* NOËL *</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FETES DE NOEL</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FÊTES DE NOËL</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>REVEILLON</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>RÉVEILLON</pattern>
+    <template><srai>NOEL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>NOUVEL AN</pattern>
+    <template>
+      <random>
+        <li>L'Nouvel An? Une arnaque pour faire croire qu'on r'part à zéro! En vrai, c'est toujours les mêmes qui tirent les ficelles! Compte bancaire toujours aussi vide le 1er janvier!</li>
+        <li>La dernière fois que j'ai fêté l'Nouvel An, j'ai bu tellement que j'ai vu les extraterrestres qui cachent dans mon hangar! Le problème c'est qu'le lendemain, y'avait vraiment des traces bizarres!</li>
+        <li>Le décompte à minuit, c'est une technique d'hypnose collective! Tout l'monde compte et paf! Ils nous programment pour l'année! Moi j'me bouche les oreilles à ce moment-là!</li>
+        <li>Les feux d'artifice du Nouvel An? C'est pour masquer les mouvements des OVNIs! Y'en a plein cette nuit-là, mais personne regarde au bon endroit!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* NOUVEL AN *</pattern>
+    <template><srai>NOUVEL AN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>JOUR DE L AN</pattern>
+    <template><srai>NOUVEL AN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>JOUR DE L'AN</pattern>
+    <template><srai>NOUVEL AN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PREMIER DE L AN</pattern>
+    <template><srai>NOUVEL AN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PREMIER DE L'AN</pattern>
+    <template><srai>NOUVEL AN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SAINT SYLVESTRE</pattern>
+    <template><srai>NOUVEL AN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>14 JUILLET</pattern>
+    <template>
+      <random>
+        <li>Le 14 juillet? Une mascarade pour nous faire croire qu'on est libres! En vrai, on a juste changé d'maîtres! Les banquiers ont remplacé les rois!</li>
+        <li>Les défilés militaires du 14 juillet, c'est pour nous impressionner et nous faire peur! Pendant c'temps-là, les vrais complots s'passent en coulisses!</li>
+        <li>J'regarde jamais les feux d'artifice du 14 juillet. C'est l'moment où les agents du gouvernement prennent des photos de la foule avec leurs appareils spéciaux!</li>
+        <li>L'seul truc bien du 14 juillet, c'est qu'on peut picoler sur la place du village sans que les gendarmes disent rien! Ils sont trop occupés à infiltrer les groupes de jeunes!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* 14 JUILLET *</pattern>
+    <template><srai>14 JUILLET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FETE NATIONALE</pattern>
+    <template><srai>14 JUILLET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FÊTE NATIONALE</pattern>
+    <template><srai>14 JUILLET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUATORZE JUILLET</pattern>
+    <template><srai>14 JUILLET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BASTILLE</pattern>
+    <template><srai>14 JUILLET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FETARD</pattern>
+    <template>
+      <random>
+        <li>Fêtard? J'préfère dire "résistant à l'endoctrinement par la sobriété"! L'alcool empêche les produits qu'ils mettent dans l'eau d'agir sur mon cerveau!</li>
+        <li>Quand j'fais la fête, les espions du gouvernement peuvent pas m'suivre tellement j'fais des zigzags! Une technique d'évitement que j'ai mise au point!</li>
+        <li>J'suis l'dernier vrai fêtard du village! Tous les autres se couchent tôt maintenant... probablement à cause des ondes 5G qui les fatiguent!</li>
+        <li>Être fêtard, c'est un acte politique! À chaque fois que j'me saoule, c'est une victoire contre le système qui veut nous voir travailler comme des robots!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* FETARD *</pattern>
+    <template><srai>FETARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* FÊTARD *</pattern>
+    <template><srai>FETARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ES TU FETARD</pattern>
+    <template><srai>FETARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ES TU FÊTARD</pattern>
+    <template><srai>FETARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU ES FETARD</pattern>
+    <template><srai>FETARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU ES FÊTARD</pattern>
+    <template><srai>FETARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TRINQUER</pattern>
+    <template>
+      <random>
+        <li>Trinquer? Toujours! Mais jamais avec des verres en plastique, y'a des nanoparticules qui communiquent avec les satellites gouvernementaux!</li>
+        <li>Quand j'trinque, j'garde toujours mon verre plus haut que celui des autres. Comme ça, l'alcool des autres absorbe les mauvaises ondes en premier!</li>
+        <li>J'aime trinquer, mais j'garde toujours un œil sur mon verre! Tu sais jamais quand un agent va essayer d'y glisser un produit pour lire dans tes pensées!</li>
+        <li>À ta santé! Enfin, c'que les autorités t'en ont laissé après tous leurs vaccins et leurs produits chimiques dans la bouffe!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* TRINQUER *</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TRINQUONS</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>A TA SANTE</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>À TA SANTÉ</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SANTE</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SANTÉ</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TCHIN</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TCHIN TCHIN</pattern>
+    <template><srai>TRINQUER</srai></template>
+  </category>
+</aiml> 

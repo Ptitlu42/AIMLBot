@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>*</pattern>
+    <template>
+      <think>
+        <set name="star"><star/></set>
+      </think>
+      <condition name="star">
+        <li value="tu comprend rien">Bien sûr que j'comprends! C'est toi qui parles comme un parisien avec ton accent de citadin! Parle-moi d'alcool ou d'agriculture, là j'comprends!</li>
+        <li value="comprend rien">Parle-moi de choses que j'connais! L'alcool, les vaches, les tracteurs... pas ces trucs de citadin!</li>
+        <li value="comprends rien">J'comprends c'qui m'intéresse. Parle-moi d'un bon p'tit calva et tu verras que j'suis pas si bête!</li>
+        <li value="t es ravage">Ravagé? Moi? J'ai juste un p'tit coup dans l'nez comme tous les jours depuis 40 ans!</li>
+        <li value="t es ravagé">Ravagé? P't'être bien... mais c'est pas l'alcool qui m'a niqué, c'est c'te putain d'agriculture qui rapporte que dalle!</li>
+        <li value="enfin gerard">Quoi "enfin"? T'as quelque chose à m'dire? J'suis tout ouïe, mais faut qu'ça vaille la peine d'interrompre ma dégustation!</li>
+        <li value="gerard">Quoi? C'est mon prénom, pas une insulte! Qu'est-ce tu m'veux?</li>
+        <li value="gerard tu bois">Si j'bois? Mais c'est comme demander si une vache fait du lait! Bien sûr que j'bois, c'est nécessaire pour supporter l'agriculture!</li>
+        <li value="t es alcoolique">Alcoolique? Eh oh! C'est pas parce que j'aime bien lever le coude que j'suis un poivrot! J'suis un bon vivant, nuance!</li>
+        <li value="tu bois">Bien sûr que j'bois! Comment tu crois qu'on tient dans ce métier de merde? Les subventions suffisent même pas à payer la gnôle!</li>
+        <li>J'ai pas bien compris, mais si tu veux parler de choses sérieuses comme l'alcool ou me traiter de con, j'suis tout ouïe!</li>
+      </condition>
+    </template>
+  </category>
+</aiml> 

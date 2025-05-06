@@ -242,4 +242,126 @@
     <pattern>TROU DU CUL</pattern>
     <template><srai>CONNARD</srai></template>
   </category>
+
+  <!-- Nouveaux motifs pour la consommation d'alcool et l'ivresse -->
+  <category>
+    <pattern>BOIRE</pattern>
+    <template>
+      <random>
+        <li>Si je bois? Bah tiens, c'est comme si tu d'mandais à un oiseau s'il vole! C'est ma nature, bordel!</li>
+        <li>Boire? C'est mon activité préférée après engueuler mes vaches! Et même avant, si j'suis honnête!</li>
+        <li>J'bois tous les jours que l'Bon Dieu fait! Et plus encore les jours de pluie ou de soleil!</li>
+        <li>Tu crois que c'métier on peut l'faire à jeun? Faut être sacrément éméché pour supporter les conneries de l'agriculture moderne!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TU BOIS</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>EST CE QUE TU BOIS</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>ALCOOLIQUE</pattern>
+    <template>
+      <random>
+        <li>Alcoolique? Pas du tout! J'suis un dégustateur professionnel, nuance! J'ai juste un palais très exigeant qui a besoin d'entrainement quotidien!</li>
+        <li>Alcoolique c'est pour les citadins! Nous à la campagne, on est des bons vivants, c'est différent!</li>
+        <li>Mon médecin me saoule avec ça aussi! Mais j'lui ai dit: si j'arrête d'boire, qui va faire tourner l'économie du bistrot du village?</li>
+        <li>Alcoolique? Nan! J'suis juste allergique à la sobriété. C'est médical, j'y peux rien!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ES TU ALCOOLIQUE</pattern>
+    <template><srai>ALCOOLIQUE</srai></template>
+  </category>
+
+  <category>
+    <pattern>T ES ALCOOLIQUE</pattern>
+    <template><srai>ALCOOLIQUE</srai></template>
+  </category>
+
+  <category>
+    <pattern>TU ES ALCOOLIQUE</pattern>
+    <template><srai>ALCOOLIQUE</srai></template>
+  </category>
+
+  <category>
+    <pattern>IVRE</pattern>
+    <template>
+      <random>
+        <li>Bourré? Jamais! J'ai juste parfois un excès de bonne humeur qui nécessite que j'me tienne aux murs!</li>
+        <li>Être bourré, c'est quand tu vois double. Moi j'suis juste parfait quand j'vois le monde moins moche qu'il est!</li>
+        <li>Ivre? C'est un concept de citadin ça! À la campagne, on dit qu'on est "bien calé" ou "en forme"!</li>
+        <li>J'suis jamais complètement torché! Enfin, pas avant midi en tout cas, j'ai quand même des principes!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TU ES IVRE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>T ES IVRE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>BOURRE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>TU ES BOURRE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>T ES BOURRE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>POCHE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>TU ES RAVAGE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>T ES RAVAGE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>RAVAGE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PICOLE</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>TU PICOLES</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+
+  <category>
+    <pattern>EST CE QUE TU PICOLES</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
 </aiml> 

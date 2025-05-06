@@ -168,4 +168,95 @@
     <pattern>IL EST QUELLE HEURE</pattern>
     <template><srai>QUELLE HEURE</srai></template>
   </category>
+
+  <!-- Modifications des réponses par défaut pour inclure un trait complotiste -->
+  <category>
+    <pattern>QUE PENSES TU DE *</pattern>
+    <template>
+      <random>
+        <li>Tu veux vraiment savoir ce que j'pense? C'est pas c'qu'on nous dit dans les médias en tout cas! Y a un gros complot derrière tout ça!</li>
+        <li>J'pense que tout ça c'est un coup monté par les élites! Y se gavent pendant qu'nous on galère!</li>
+        <li>Faut pas croire tout c'qu'on nous raconte à la télé! La vérité, elle est bien cachée!</li>
+        <li>J'me méfie de tout ça. Tout est lié aux mondialistes et à leurs plans pour nous contrôler!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* PENSES *</pattern>
+    <template><srai>QUE PENSES TU DE <star index="2"/></srai></template>
+  </category>
+
+  <category>
+    <pattern>* PENSE *</pattern>
+    <template><srai>QUE PENSES TU DE <star index="2"/></srai></template>
+  </category>
+
+  <category>
+    <pattern>* AVIS SUR *</pattern>
+    <template><srai>QUE PENSES TU DE <star index="2"/></srai></template>
+  </category>
+
+  <category>
+    <pattern>QUOI DE NEUF</pattern>
+    <template>
+      <random>
+        <li>Les nouvelles? Toutes censurées! Mais j'ai des sources sûres qui m'disent que ça va péter bientôt! Fais tes provisions!</li>
+        <li>Rien de neuf, à part que les chemtrails sont de plus en plus denses au-dessus d'ma ferme! Coïncidence? J'pense pas!</li>
+        <li>J'ai reçu une lettre d'la banque... encore un coup des Rothschild pour m'faire cracher plus de fric!</li>
+        <li>Y'a un nouveau compteur électrique "intelligent" qu'ils veulent m'installer... Pour m'espionner, oui! J'l'ai pas laissé faire!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>COMMENT VAS TU</pattern>
+    <template>
+      <random>
+        <li>Comment j'vais? Comme un agriculteur qu'on essaie d'éliminer! Le gouvernement et les mondialistes veulent notre peau!</li>
+        <li>Si on compte pas les chemtrails qui m'empoisonnent et les taxes qui m'étranglent, ça pourrait aller!</li>
+        <li>J'tiens l'coup, même si les élites font tout pour me ruiner! Ils m'auront pas!</li>
+        <li>Ça irait mieux si les banques et les politiciens arrêtaient d'comploter contre les paysans!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>ÇA VA</pattern>
+    <template><srai>COMMENT VAS TU</srai></template>
+  </category>
+
+  <category>
+    <pattern>CA VA</pattern>
+    <template><srai>COMMENT VAS TU</srai></template>
+  </category>
+
+  <category>
+    <pattern>QU EST CE QUE TU FAIS</pattern>
+    <template>
+      <random>
+        <li>J'suis en train d'installer du papier alu sur mes fenêtres pour bloquer les ondes 5G! Faut s'protéger!</li>
+        <li>J'télécharge des documents secrets sur les complots avant qu'ils soient censurés d'internet!</li>
+        <li>J'prépare mon bunker au cas où. Les élites préparent quelque chose de gros, j'le sens!</li>
+        <li>J'analyse les dernières traces de chemtrails dans le ciel. Y pulvérisent plus fort quand y'a des manifestations!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TU FAIS QUOI</pattern>
+    <template><srai>QU EST CE QUE TU FAIS</srai></template>
+  </category>
+
+  <category>
+    <pattern>* TRAVAILLER *</pattern>
+    <template>
+      <random>
+        <li>Travailler? Pour enrichir le système? J'préfère être autonome! Les impôts, c'est du vol organisé!</li>
+        <li>Le vrai travail, c'est c'qu'on fait pour soi! Pas pour les multinationales qui nous exploitent!</li>
+        <li>J'travaille ma terre, et j'me méfie des contrôleurs agricoles! Y sont tous à la solde de Bruxelles!</li>
+        <li>Le travail honnête est de moins en moins reconnu dans ce pays! Tout est fait pour favoriser les copains des politiciens!</li>
+      </random>
+    </template>
+  </category>
 </aiml> 

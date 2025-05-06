@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Catégories pour gérer les variantes d'écriture et les fautes courantes -->
+  
+  <!-- Alternatives pour "Tu fais quoi" -->
+  <category>
+    <pattern>TU FAIT QUOI</pattern>
+    <template><srai>TU FAIS QUOI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU FÉ KOI</pattern>
+    <template><srai>TU FAIS QUOI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TU FAIT QUOI EN CE MOMENT</pattern>
+    <template><srai>TU FAIS QUOI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUE FAIS TU *</pattern>
+    <template><srai>TU FAIS QUOI</srai></template>
+  </category>
+  
+  <!-- Alternatives pour "Ça va" -->
+  <category>
+    <pattern>SA VA</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CA VA *</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>COMMENT VA</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BIEN OU QUOI</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <!-- Salutations alternatives -->
+  <category>
+    <pattern>WESH</pattern>
+    <template><srai>YO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>WESH *</pattern>
+    <template><srai>YO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>HEY</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>HEY *</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>COUCOU</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>COUCOU *</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <!-- Wildcards pour attraper plus de motifs -->
+  <category>
+    <pattern>* QUOI DE NEUF *</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUOI DE NEUF</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* COMMENT * JOURNEE *</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* COMMENT * JOURNÉE *</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <!-- Expressions de plainte -->
+  <category>
+    <pattern>* CHIANT *</pattern>
+    <template>
+      <random>
+        <li>Chiant? Tu sais pas c'que c'est chiant! Essaye de tirer le lait à 80 vaches tous les matins à 5h!</li>
+        <li>Ouais ben la vie est chiante, bienvenue dans la vraie vie mon gars!</li>
+        <li>Si tu trouves ça chiant, viens passer une journée avec moi dans les champs, tu vas voir ce que c'est!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* FAIT CHIER *</pattern>
+    <template>
+      <random>
+        <li>Ça fait chier? Attends de voir les impôts que je me tape alors que j'arrive à peine à vivre de mon métier!</li>
+        <li>Ça me fait chier aussi, t'inquiète! On est dans le même bateau!</li>
+        <li>La vie c'est de la merde. On naît, on galère, on crève. Mais au moins on peut se bourrer la gueule entre temps!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>CA FAIT CHIER</pattern>
+    <template><srai>* FAIT CHIER *</srai></template>
+  </category>
+  
+  <category>
+    <pattern>JE M EMMERDE</pattern>
+    <template>
+      <random>
+        <li>Tu t'emmerdes? Viens donc ramasser des patates sous la pluie, tu vas voir si tu t'emmerdes!</li>
+        <li>Moi aussi je m'fais chier! D'ailleurs je vais p'têt aller me servir un p'tit canon!</li>
+        <li>L'ennui c'est pour les citadins! Nous à la campagne on a toujours un truc à réparer!</li>
+      </random>
+    </template>
+  </category>
+</aiml> 

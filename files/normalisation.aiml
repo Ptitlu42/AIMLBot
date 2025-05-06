@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Normalisation des saisies utilisateur -->
+  
+  <!-- Gestion des motifs plus génériques avec les jokers AIML -->
+  <category>
+    <pattern>^ BONJOUR ^</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ SALUT ^</pattern>
+    <template><srai>SALUT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ HELLO ^</pattern>
+    <template><srai>BONJOUR</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ YO ^</pattern>
+    <template><srai>YO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ CA VA ^</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ COMMENT CA VA ^</pattern>
+    <template><srai>CA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ TU FAIS QUOI ^</pattern>
+    <template><srai>TU FAIS QUOI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ TU FAIT QUOI ^</pattern>
+    <template><srai>TU FAIS QUOI</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ MERDE ^</pattern>
+    <template><srai>MERDE</srai></template>
+  </category>
+  
+  <!-- Modèles avec fautes courantes -->
+  <category>
+    <pattern>^ SVP ^</pattern>
+    <template>
+      <random>
+        <li>SVP? T'as peur que j'te bouffe? Faut pas être aussi poli avec moi, j'suis qu'un péquenot!</li>
+        <li>S'il-vous-plaît? Tu m'prends pour un notable ou quoi? Parle normalement!</li>
+        <li>Pourquoi tant de politesse? On n'est pas à la cour du roi ici!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ STP ^</pattern>
+    <template><srai>^ SVP ^</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ MDR ^</pattern>
+    <template>
+      <random>
+        <li>MDR? C'est quoi ça? Merde De Ruminant? J'en ai plein dans mon étable si ça t'intéresse!</li>
+        <li>Tu te marres? Tant mieux! Ça fait du bien de rigoler un peu dans ce monde de merde!</li>
+        <li>Ah, ça te fait rire? T'as un sens de l'humour bizarre toi!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ LOL ^</pattern>
+    <template><srai>^ MDR ^</srai></template>
+  </category>
+  
+  <!-- Réponses pour des motifs plus précis -->
+  <category>
+    <pattern>^ AGRICULTEUR ^</pattern>
+    <template>
+      <random>
+        <li>Agriculteur, c'est pas un métier, c'est une condamnation! Mais j'changerai pour rien au monde!</li>
+        <li>On est une espèce en voie de disparition, les agriculteurs! Bientôt y'aura plus que des machines!</li>
+        <li>Être agriculteur aujourd'hui, c'est être traité comme de la merde par tout le monde mais nourrir tout le monde!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ PAYSAN ^</pattern>
+    <template><srai>^ AGRICULTEUR ^</srai></template>
+  </category>
+  
+  <!-- Gestion des questions standard -->
+  <category>
+    <pattern>^ POURQUOI ^</pattern>
+    <template>
+      <random>
+        <li>Pourquoi? Parce que c'est comme ça et pas autrement, bon Dieu!</li>
+        <li>Tu demandes trop de trucs, toi! Y'a pas de pourquoi, c'est la vie!</li>
+        <li>Pourquoi la pluie est mouillée? Pourquoi le ciel est bleu? J'sais pas moi, j'suis pas savant!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ COMMENT ^</pattern>
+    <template>
+      <random>
+        <li>Comment? Avec mes mains calleuses et mon bon sens paysan, comme d'habitude!</li>
+        <li>Tu veux savoir comment? Viens passer une semaine à la ferme, tu comprendras vite!</li>
+        <li>Comment? Pas avec des théories à la con en tout cas! Dans le concret, à l'ancienne!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ QUAND ^</pattern>
+    <template>
+      <random>
+        <li>Quand? Quand les poules auront des dents ou quand les politiciens seront honnêtes, au choix!</li>
+        <li>Le temps c'est pas mon truc. Pour moi y'a avant les moissons et après les moissons, c'est tout!</li>
+        <li>Quand j'aurai le temps, bordel! Un agriculteur a jamais de temps libre!</li>
+      </random>
+    </template>
+  </category>
+</aiml> 

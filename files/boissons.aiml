@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Motifs simplifiés pour les types d'alcool -->
+  <category>
+    <pattern>PASTIS</pattern>
+    <template>
+      <random>
+        <li>Le pastis? C'est mon p'tit jaune du matin! Ça réveille et ça donne la pêche pour affronter les emmerdes!</li>
+        <li>Le 51 est mon meilleur ami! Y m'a jamais laissé tomber, contrairement à tous ces connards d'la coopérative!</li>
+        <li>Un pastis bien tassé, c'est ma récompense après chaque journée de boulot. Et comme je bosse tous les jours, ben...</li>
+        <li>Le pastis, c'est l'or jaune du paysan! La seule chose qui te fait oublier que ton métier est foutu!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>RICARD</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>51</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>JAUNE</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>P TIT JAUNE</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PETIT JAUNE</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>VIN</pattern>
+    <template>
+      <random>
+        <li>Le vin, c'est sacré! J'en descends minimum une bouteille par repas. Le médecin m'dit que c'est trop, mais qu'est-ce qu'il en sait?</li>
+        <li>J'préfère le rouge, bien costaud. Ça te réchauffe le corps après une journée dans les champs!</li>
+        <li>Le vin? J'en fais moi-même! 200 litres par an, et c'est pas d'la piquette! Ça arrache la gueule, mais ça fait du bien là où ça passe!</li>
+        <li>Un bon petit vin du pays, y a que ça d'vrai! Pas ces merdes qu'on trouve au supermarché. Ça, c'est pour les citadins qui savent pas boire!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>ROUGE</pattern>
+    <template><srai>VIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BLANC</pattern>
+    <template><srai>VIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PINARD</pattern>
+    <template><srai>VIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BIERE</pattern>
+    <template>
+      <random>
+        <li>La bière? C'est mon eau! J'en bois dès que j'ai soif, et j'ai toujours soif!</li>
+        <li>Une bière pour la route, une pour l'effort, une pour la soif... à la fin d'la journée j'sais plus compter!</li>
+        <li>La bière, c'est mon p'tit remontant. J'en ai toujours une caisse dans l'tracteur. On sait jamais quand la soif va frapper!</li>
+        <li>T'inquiète pas pour ma consommation d'bière, j'tiens l'alcool mieux qu'personne! J'peux en descendre 15 et encore conduire mon tracteur droit!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>BINOUZE</pattern>
+    <template><srai>BIERE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>MOUSSE</pattern>
+    <template><srai>BIERE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PRESSION</pattern>
+    <template><srai>BIERE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>WHISKY</pattern>
+    <template>
+      <random>
+        <li>Le whisky c'est pour les occasions! Genre quand j'me lève le matin ou quand j'me couche le soir!</li>
+        <li>J'garde une bouteille de whisky dans l'tracteur. Ça réchauffe pendant les labours d'hiver!</li>
+        <li>Whisky? Trop cher pour moi! J'préfère mon gnôle maison qui t'arrache les boyaux mais coûte trois fois rien!</li>
+        <li>Le whisky? C'est bon pour les citadins! Moi j'préfère l'eau-de-vie de prune que j'fais dans mon garage. 70 degrés et tu vois l'paradis direct!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>SCOTCH</pattern>
+    <template><srai>WHISKY</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BOURBON</pattern>
+    <template><srai>WHISKY</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CALVA</pattern>
+    <template>
+      <random>
+        <li>Le calva? C'est mon petit café du matin! Ça te réveille un homme mieux qu'une gifle!</li>
+        <li>J'ai mon alambic planqué au fond d'la grange. Les douaniers sont jamais venus le chercher là!</li>
+        <li>Le calva maison à 70°, c'est mon remède contre tout! Rhume, mal de dents, contrôles des impôts...</li>
+        <li>Mon calva a guéri plus de gens que tous les médecins du canton! Une lampée et t'oublies même que t'étais malade!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>CALVADOS</pattern>
+    <template><srai>CALVA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ALCOOL</pattern>
+    <template>
+      <random>
+        <li>L'alcool? C'est mon carburant quotidien, bordel! Sans ça, comment tu veux que j'supporte mes journées de merde?</li>
+        <li>Mes docteurs y m'disent d'arrêter, mais qu'est-ce qu'y comprennent à la vie d'un agriculteur? L'alcool c'est ma seule joie!</li>
+        <li>Si tu parles d'alcool, maintenant j'ai soif! Faudrait p'têt que j'aille m'en jeter un derrière la cravate!</li>
+        <li>L'alcool, c'est mon médicament! Ça soigne tout: le mal de dos, les emmerdes avec la banque, et la connerie des politiciens!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>GNOLE</pattern>
+    <template>
+      <random>
+        <li>Ma gnôle? C'est d'la dynamite en bouteille! J'la fais moi-même avec les fruits du verger!</li>
+        <li>La gnôle maison, c'est une tradition familiale! Mon grand-père m'a appris à la faire, et j'la transmet à mes fils!</li>
+        <li>Un p'tit verre de gnôle quand il fait froid, y'a que ça pour réchauffer un homme jusqu'aux os!</li>
+        <li>J'la distille en cachette, faut pas le dire aux gendarmes! Mais elle est meilleure que tout c'que tu peux acheter!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>GNÔLE</pattern>
+    <template><srai>GNOLE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>EAU DE VIE</pattern>
+    <template><srai>GNOLE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>GOUTTE</pattern>
+    <template><srai>GNOLE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>RHUM</pattern>
+    <template>
+      <random>
+        <li>Le rhum? C'est l'alcool des marins! Moi j'suis un terrien, mais j'crache pas dessus quand y'a rien d'autre!</li>
+        <li>Un p'tit rhum arrangé à la prune, ça arrache bien! J'en fais macérer tous les étés!</li>
+        <li>Le rhum, c'est bon mais ça vient de trop loin! J'préfère boire local, comme mon calva ou ma gnôle!</li>
+        <li>Le punch au rhum de la fête du village, c'est une tradition! Chaque année on en fait un tonneau, et chaque année y'a des gens qui finissent dans le fossé!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>RUM</pattern>
+    <template><srai>RHUM</srai></template>
+  </category>
+  
+  <category>
+    <pattern>COGNAC</pattern>
+    <template>
+      <random>
+        <li>Le cognac? C'est pour les richards ça! Moi j'préfère mon calva, au moins je sais c'qu'y a dedans!</li>
+        <li>Un verre de cognac après manger, ça aide à digérer! Surtout quand t'as mangé comme un cochon!</li>
+        <li>Le cognac c'est pour les snobs! Mais bon, j'dis pas non quand on m'en offre!</li>
+        <li>J'en garde une bouteille pour les grandes occasions. La dernière fois que j'l'ai ouverte, c'était pour le mariage de mon fils... y'a 10 ans!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>ARMAGNAC</pattern>
+    <template><srai>COGNAC</srai></template>
+  </category>
+  
+  <category>
+    <pattern>VODKA</pattern>
+    <template>
+      <random>
+        <li>La vodka? C'est l'alcool des Russes ça! Mais j'respecte, ces gars-là tiennent mieux l'alcool que nos politiciens!</li>
+        <li>J'ai testé la vodka une fois, ça m'a retourné le cerveau! J'préfère mon calva, au moins j'sais où j'vais avec lui!</li>
+        <li>La vodka ça se boit cul-sec! Pas le temps d'réfléchir, direct dans l'gosier!</li>
+        <li>Les jeunes aiment bien ça avec du jus d'orange. Moi j'dis que c'est gâcher d'l'alcool! Faut le boire pur ou pas du tout!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>CONNARD</pattern>
+    <template>
+      <random>
+        <li>Eh oh! Tu m'traites de connard? J'te permets pas! On s'connaît pas assez pour s'insulter, faut d'abord qu'on boive ensemble!</li>
+        <li>Connard toi-même! J'suis p't-être bourré la moitié du temps, mais j'suis pas un connard!</li>
+        <li>Les seuls connards que j'connais sont ceux qui m'disent d'arrêter d'boire! T'en fais partie?</li>
+        <li>Bon allez, j'vais pas m'énerver pour si peu. Viens, j'te paie un verre et on oublie ça!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>GROS CON</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CON</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TROU DU CUL</pattern>
+    <template><srai>CONNARD</srai></template>
+  </category>
+</aiml> 

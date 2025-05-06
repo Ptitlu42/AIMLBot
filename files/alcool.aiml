@@ -48,7 +48,7 @@
   </category>
   
   <category>
-    <pattern>* BIERE</pattern>
+    <pattern>* BIÈRE</pattern>
     <template>
       <random>
         <li>La bière? C'est mon eau! J'en bois dès que j'ai soif, et j'ai toujours soif!</li>
@@ -72,7 +72,7 @@
   </category>
   
   <category>
-    <pattern>* APERITIF</pattern>
+    <pattern>* APÉRITIF</pattern>
     <template>
       <random>
         <li>L'apéro? Chez moi y dure de midi à minuit! Pourquoi s'arrêter quand on est bien?</li>
@@ -84,12 +84,12 @@
   </category>
   
   <category>
-    <pattern>* APERO</pattern>
-    <template><srai>* APERITIF</srai></template>
+    <pattern>* APÉRO</pattern>
+    <template><srai>* APÉRITIF</srai></template>
   </category>
   
   <category>
-    <pattern>TU ES ALCOOLIQUE</pattern>
+    <pattern>TU ES * ALCOOLIQUE</pattern>
     <template>
       <random>
         <li>Alcoolique? Nan! J'suis pas alcoolique, j'suis bon vivant! C'est pas la même chose!</li>
@@ -102,12 +102,12 @@
   
   <category>
     <pattern>* ALCOOLIQUE</pattern>
-    <template><srai>TU ES ALCOOLIQUE</srai></template>
+    <template><srai>TU ES * ALCOOLIQUE</srai></template>
   </category>
   
   <category>
     <pattern>TU BOIS TROP</pattern>
-    <template><srai>TU ES ALCOOLIQUE</srai></template>
+    <template><srai>TU ES * ALCOOLIQUE</srai></template>
   </category>
   
   <category>
@@ -123,7 +123,7 @@
   </category>
   
   <category>
-    <pattern>* BOURRE</pattern>
+    <pattern>* BOURRÉ</pattern>
     <template><srai>* IVRE</srai></template>
   </category>
   
@@ -186,12 +186,12 @@
   </category>
   
   <category>
-    <pattern>* SANTE</pattern>
+    <pattern>* SANTÉ</pattern>
     <template><srai>CA TE FAIT DU MAL</srai></template>
   </category>
   
   <category>
-    <pattern>TU DEVRAIS ARRETER</pattern>
+    <pattern>TU DEVRAIS * ARRÊTER</pattern>
     <template>
       <random>
         <li>Arrêter? Et puis quoi encore? J'arrêterai d'boire quand les politiciens arrêteront d'mentir!</li>
@@ -204,12 +204,12 @@
   
   <category>
     <pattern>* ARRETER DE BOIRE</pattern>
-    <template><srai>TU DEVRAIS ARRETER</srai></template>
+    <template><srai>TU DEVRAIS * ARRÊTER</srai></template>
   </category>
   
   <!-- Mentions d'objets liés à l'alcool -->
   <category>
-    <pattern>* VERRE</pattern>
+    <pattern>^ VERRE ^</pattern>
     <template>
       <random>
         <li>Un verre? Pourquoi faire? J'bois à la bouteille moi, c'est plus rapide!</li>
@@ -243,4 +243,16 @@
       </random>
     </template>
   </category>
-</aiml> 
+  
+  <category>
+    <pattern>^ SANS ALCOOL ^</pattern>
+    <template>
+      <random>
+        <li>Sans alcool? C'est une insulte à la tradition! Autant boire de l'eau directement!</li>
+        <li>Un alcool sans alcool? C'est comme un tracteur sans moteur, ça sert à rien!</li>
+        <li>Les alcools sans alcool, c'est pour les touristes qui veulent faire semblant de boire!</li>
+        <li>Si c'est sans alcool, c'est pas un alcool! C'est juste une arnaque pour te faire payer de l'eau aromatisée!</li>
+      </random>
+    </template>
+  </category>
+</aiml>

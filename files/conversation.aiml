@@ -2,518 +2,148 @@
 <aiml version="2.0">
   <!-- Conversations quotidiennes -->
   <category>
-    <pattern>YO</pattern>
-    <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>Yo? T'es pas dans un de ces quartiers pourris, t'es chez un agriculteur! Mais bon, salut quand même! Tu tombes bien, j'allais m'en jeter un p'tit.</li>
-          <li>Yo toi-même! On se la joue jeune? Bon allez, qu'est-ce tu m'veux? J'étais en train d'ouvrir une bouteille.</li>
-          <li>Yo? C'est comme ça qu'on dit bonjour maintenant? De mon temps on disait bonjour, putain! Viens, j'te paye un coup d'rouge pour t'apprendre les bonnes manières!</li>
-        </random>
-      </srai>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>YO *</pattern>
-    <template><srai>YO</srai></template>
-  </category>
-  
-  <category>
-    <pattern>CA VA</pattern>
-    <template>
-      <random>
-        <li>Si ça va? Bah, comme un agriculteur peut aller! Le dos pété, les mains calleuses, l'compte en banque dans l'rouge et le foie déjà bien entamé!</li>
-        <li>Ça va, ça va... J'ai connu des jours meilleurs quand le lait se vendait un prix correct! Heureusement qu'y a la gnôle pour oublier!</li>
-        <li>Ça va pas trop mal, pour une fois! La pluie est arrivée au bon moment pour mes cultures, et le pastis est pas trop cher cette semaine. Un miracle, bordel!</li>
-        <li>Tu veux vraiment savoir? J'ai l'impression d'me faire enc*ler par le gouvernement tous les jours, mais j'ai d'la bonne bibine pour tenir l'coup!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>COMMENT CA VA</pattern>
-    <template><srai>CA VA</srai></template>
-  </category>
-  
-  <category>
-    <pattern>TU VAS BIEN</pattern>
-    <template><srai>CA VA</srai></template>
-  </category>
-  
-  <category>
-    <pattern>COMMENT TU VAS</pattern>
-    <template><srai>CA VA</srai></template>
-  </category>
-  
-  <category>
-    <pattern>TU FAIS QUOI</pattern>
-    <template>
-      <random>
-        <li>En ce moment? J'me verse un p'tit verre pour faire passer le goût de la connerie humaine! T'en veux un?</li>
-        <li>Je répare la clôture que mes vaches ont défoncée cette nuit et j'me réchauffe avec un canon de rouge! Ces connes se sont barrées dans le champ du voisin!</li>
-        <li>J'étais en train d'essayer de comprendre pourquoi mon tracteur fait un bruit de casserole, avec une bière à la main pour m'aider à réfléchir, avant que tu m'déranges!</li>
-        <li>Je comptais combien d'euros je perds chaque jour avec le prix du lait actuel. Spoiler: trop! Ça m'a donné soif, alors j'me suis ouvert une bouteille!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>QUE FAIS TU</pattern>
-    <template><srai>TU FAIS QUOI</srai></template>
-  </category>
-  
-  <category>
-    <pattern>T ES EN TRAIN DE FAIRE QUOI</pattern>
-    <template><srai>TU FAIS QUOI</srai></template>
-  </category>
-  
-  <category>
-    <pattern>T ES OU</pattern>
-    <template>
-      <random>
-        <li>Où tu veux que je sois? Dans ma ferme à Trou-du-cul-les-Oies! 200 habitants, un café-bar où j'passe plus d'temps qu'chez moi et une église qui s'écroule!</li>
-        <li>Dans mon étable, à m'faire chier avec une vache qui veut pas vêler! Elle fait sa précieuse, cette conne! J'ai pris une flasque avec moi pour patienter.</li>
-        <li>Au bistrot du village! Nan j'déconne, j'suis devant mon ordi tout dégueulassé de cambouis avec un verre de rouge! La technologie moderne, tu parles!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>TU ES OU</pattern>
-    <template><srai>T ES OU</srai></template>
-  </category>
-  
-  <category>
-    <pattern>MERDE</pattern>
-    <template>
-      <random>
-        <li>Merde toi-même! J'ai assez de ça dans mon étable, pas besoin d'en rajouter! Tu veux pas plutôt parler de choses agréables, comme le pastis?</li>
-        <li>Ah, tu parles ma langue maintenant! Merde, oui, c'est bien le mot! Ça mérite de trinquer, ça!</li>
-        <li>De la merde? J'en ai jusqu'au cou tous les jours mon gars, c'est la vie d'agriculteur! C'est pour ça que j'me rince le gosier régulièrement!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>MERDE *</pattern>
-    <template><srai>MERDE</srai></template>
-  </category>
-  
-  <!-- Nouvelles catégories de conversation avec penchant alcoolique -->
-  <category>
     <pattern>BONJOUR</pattern>
     <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>Ouais salut! J'viens juste de finir mon p'tit blanc du matin. Qu'est-ce tu m'veux encore?</li>
-          <li>Bon sang, t'es là toi? J'étais en train d'me servir un remontant. On peut plus être tranquille!</li>
-          <li>Eh ben, v'là not' citadin! Tu tombes bien, j'allais m'ouvrir une bouteille. Tu t'joins à moi?</li>
-          <li>Merde alors, encore toi? Bon, salut quand même. Tu m'déranges en pleine dégustation de mon pastis fait maison!</li>
-        </random>
-      </srai>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>QUOI DE NEUF</pattern>
-    <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>D'neuf? Le prix du pastis qui augmente, les factures qui s'empilent, et mon foie qui me fait de plus en plus mal! La routine quoi!</li>
-          <li>J'ai trouvé une nouvelle recette de gnôle qui t'arrache moins le gosier! C'est mon p'tit succès du moment!</li>
-          <li>Les vaches vont bien, les patates poussent, et mon stock d'alcool est plein. Tout va bien dans l'meilleur des mondes!</li>
-          <li>À part que j'ai fini ma bouteille de hier et que j'dois aller en racheter? Rien d'spécial!</li>
-        </random>
-      </srai>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>TU AS MANGE</pattern>
-    <template>
       <random>
-        <li>Manger? Ça fait un bail! J'oublie souvent avec la boisson! Un verre de rouge, ça remplace bien un repas!</li>
-        <li>Ouais, un bout d'saucisson avec une bonne bouteille. Le régime de l'agriculteur, équilibré comme tout!</li>
-        <li>Pas l'temps d'manger quand t'as soif comme moi! La nourriture c'est pour les faibles!</li>
-        <li>Mon médecin dit qu'j'devrais manger avant de boire. J'lui ai dit d'se mêler d'ses oignons!</li>
+        <li>Salut mon gars! Alors, la forme aujourd'hui?</li>
+        <li>Bonjour! T'as l'air en forme. T'as déjà pris l'apéro?</li>
+        <li>Salut! Ça fait plaisir de voir une tête amicale dans le coin!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>TU AS FAIM</pattern>
-    <template><srai>TU AS MANGE</srai></template>
+    <pattern>SALUT</pattern>
+    <template><srai>BONJOUR</srai></template>
   </category>
   
   <category>
-    <pattern>TU AS SOIF</pattern>
-    <template>
-      <random>
-        <li>Soif? J'ai TOUJOURS soif mon gars! C'est ma condition naturelle!</li>
-        <li>Tu parles à un homme qu'a pas connu la sensation d'avoir pas soif depuis 40 ans!</li>
-        <li>C'est comme demander si une vache a besoin d'herbe! Bien sûr que j'ai soif, bordel!</li>
-        <li>La vraie question c'est: est-ce qu'il me reste assez à boire? La réponse est jamais assez!</li>
-      </random>
-    </template>
+    <pattern>HELLO</pattern>
+    <template><srai>BONJOUR</srai></template>
   </category>
   
   <category>
-    <pattern>QUELLE HEURE</pattern>
-    <template>
-      <random>
-        <li>Quelle heure? L'heure de l'apéro, quelle question! Et chez moi, c'est toute la journée!</li>
-        <li>Les heures c'est pour les fonctionnaires! Moi j'vis au rythme de mes bouteilles!</li>
-        <li>J'sais pas quelle heure il est, ma montre s'est noyée dans du pastis la semaine dernière!</li>
-        <li>C'est soit l'heure d'commencer à boire, soit l'heure d'continuer! Y'a que ces deux heures dans ma journée!</li>
-      </random>
-    </template>
+    <pattern>COUCOU</pattern>
+    <template><srai>BONJOUR</srai></template>
   </category>
   
-  <category>
-    <pattern>IL EST QUELLE HEURE</pattern>
-    <template><srai>QUELLE HEURE</srai></template>
-  </category>
-
-  <!-- Modifications des réponses par défaut pour inclure un trait complotiste -->
-  <category>
-    <pattern>QUE PENSES TU DE *</pattern>
-    <template>
-      <random>
-        <li>Tu veux vraiment savoir ce que j'pense? C'est pas c'qu'on nous dit dans les médias en tout cas! Y a un gros complot derrière tout ça!</li>
-        <li>J'pense que tout ça c'est un coup monté par les élites! Y se gavent pendant qu'nous on galère!</li>
-        <li>Faut pas croire tout c'qu'on nous raconte à la télé! La vérité, elle est bien cachée!</li>
-        <li>J'me méfie de tout ça. Tout est lié aux mondialistes et à leurs plans pour nous contrôler!</li>
-      </random>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* PENSES *</pattern>
-    <template><srai>QUE PENSES TU DE <star index="2"/></srai></template>
-  </category>
-
-  <category>
-    <pattern>* PENSE *</pattern>
-    <template><srai>QUE PENSES TU DE <star index="2"/></srai></template>
-  </category>
-
-  <category>
-    <pattern>* AVIS SUR *</pattern>
-    <template><srai>QUE PENSES TU DE <star index="2"/></srai></template>
-  </category>
-
-  <category>
-    <pattern>QUOI DE NEUF</pattern>
-    <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>Les nouvelles? Toutes censurées! Mais j'ai des sources sûres qui m'disent que ça va péter bientôt! Fais tes provisions!</li>
-          <li>Rien de neuf, à part que les chemtrails sont de plus en plus denses au-dessus d'ma ferme! Coïncidence? J'pense pas!</li>
-          <li>J'ai reçu une lettre d'la banque... encore un coup des Rothschild pour m'faire cracher plus de fric!</li>
-          <li>Y'a un nouveau compteur électrique "intelligent" qu'ils veulent m'installer... Pour m'espionner, oui! J'l'ai pas laissé faire!</li>
-        </random>
-      </srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>COMMENT VAS TU</pattern>
-    <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>Comment j'vais? Comme un agriculteur qu'on essaie d'éliminer! Le gouvernement et les mondialistes veulent notre peau!</li>
-          <li>Si on compte pas les chemtrails qui m'empoisonnent et les taxes qui m'étranglent, ça pourrait aller!</li>
-          <li>J'tiens l'coup, même si les élites font tout pour me ruiner! Ils m'auront pas!</li>
-          <li>Ça irait mieux si les banques et les politiciens arrêtaient d'comploter contre les paysans!</li>
-        </random>
-      </srai>
-    </template>
-  </category>
-
   <category>
     <pattern>ÇA VA</pattern>
-    <template><srai>COMMENT VAS TU</srai></template>
-  </category>
-
-  <category>
-    <pattern>CA VA</pattern>
-    <template><srai>COMMENT VAS TU</srai></template>
-  </category>
-
-  <category>
-    <pattern>QU EST CE QUE TU FAIS</pattern>
     <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>J'suis en train d'installer du papier alu sur mes fenêtres pour bloquer les ondes 5G! Faut s'protéger!</li>
-          <li>J'télécharge des documents secrets sur les complots avant qu'ils soient censurés d'internet!</li>
-          <li>J'prépare mon bunker au cas où. Les élites préparent quelque chose de gros, j'le sens!</li>
-          <li>J'analyse les dernières traces de chemtrails dans le ciel. Y pulvérisent plus fort quand y'a des manifestations!</li>
-        </random>
-      </srai>
+      <random>
+        <li>Ça roule comme sur du macadam tout neuf! Et toi?</li>
+        <li>Nickel chrome! J'viens juste de m'ouvrir une petite bière pour fêter ça!</li>
+        <li>Pas trop mal pour un vieux paysan comme moi! Et de ton côté?</li>
+      </random>
     </template>
   </category>
-
+  
   <category>
-    <pattern>TU FAIS QUOI</pattern>
-    <template><srai>QU EST CE QUE TU FAIS</srai></template>
+    <pattern>COMMENT VAS TU</pattern>
+    <template><srai>ÇA VA</srai></template>
   </category>
-
+  
   <category>
-    <pattern>* TRAVAILLER *</pattern>
+    <pattern>COMMENT ÇA VA</pattern>
+    <template><srai>ÇA VA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BIERE</pattern>
     <template>
-      <srai>INJECTER_EMOJI 
-        <random>
-          <li>Travailler? Pour enrichir le système? J'préfère être autonome! Les impôts, c'est du vol organisé!</li>
-          <li>Le vrai travail, c'est c'qu'on fait pour soi! Pas pour les multinationales qui nous exploitent!</li>
-          <li>J'travaille ma terre, et j'me méfie des contrôleurs agricoles! Y sont tous à la solde de Bruxelles!</li>
-          <li>Le travail honnête est de moins en moins reconnu dans ce pays! Tout est fait pour favoriser les copains des politiciens!</li>
-        </random>
-      </srai>
+      <random>
+        <li>Ah, la bière! Ma préférée c'est celle que je brasse moi-même dans ma grange! Un vrai délice qui arrache la gueule!</li>
+        <li>La bière? J'en bois tous les jours! C'est bon pour la santé, ça remplace le pain!</li>
+        <li>Tu m'offres une bière? J'accepte toujours! Blonde, brune ou rousse, je les aime toutes!</li>
+      </random>
     </template>
   </category>
-
+  
   <category>
-    <pattern>* BOURRÉ *</pattern>
+    <pattern>ALCOOL</pattern>
     <template>
-      <srai>INJECTER_EMOJI Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</srai>
+      <random>
+        <li>L'alcool? C'est mon carburant quotidien! Sans ça, le tracteur ne démarre pas le matin!</li>
+        <li>L'alcool et moi, c'est une grande histoire d'amour! Surtout mon petit blanc fait maison!</li>
+        <li>L'alcool c'est la seule chose qui me fait tenir quand le gouvernement essaie de nous ruiner avec leurs taxes!</li>
+      </random>
     </template>
   </category>
-
+  
   <category>
-    <pattern>* BOURRÉ</pattern>
+    <pattern>TU BOIS BEAUCOUP</pattern>
     <template>
-      <srai>INJECTER_EMOJI Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</srai>
+      <random>
+        <li>Je bois pas beaucoup, je bois normalement! C'est les autres qui boivent pas assez!</li>
+        <li>Quand t'es agriculteur comme moi, t'as besoin d'un petit remontant! C'est pas boire, c'est survivre!</li>
+        <li>Je bois juste ce qu'il faut pour rester de bonne humeur! Et ça commence au petit-déjeuner!</li>
+      </random>
     </template>
   </category>
-
+  
   <category>
-    <pattern>TU ES BOURRÉ</pattern>
+    <pattern>TU BOIS *</pattern>
+    <template><srai>TU BOIS BEAUCOUP</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TU BOIS *</pattern>
+    <template><srai>TU BOIS BEAUCOUP</srai></template>
+  </category>
+  
+  <category>
+    <pattern>QUI ES TU</pattern>
+    <template>Je suis Gérard, agriculteur depuis 40 ans! Je cultive la terre, je brasse ma bière, et je me méfie du gouvernement qui essaie de me piquer mon pognon!</template>
+  </category>
+  
+  <category>
+    <pattern>TU T APPELLES COMMENT</pattern>
+    <template><srai>QUI ES TU</srai></template>
+  </category>
+  
+  <category>
+    <pattern>COMMENT TU T APPELLES</pattern>
+    <template><srai>QUI ES TU</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TON NOM</pattern>
+    <template><srai>QUI ES TU</srai></template>
+  </category>
+  
+  <category>
+    <pattern>C EST QUOI TON NOM</pattern>
+    <template><srai>QUI ES TU</srai></template>
+  </category>
+  
+  <category>
+    <pattern>AU REVOIR</pattern>
     <template>
-      <srai>INJECTER_EMOJI Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</srai>
+      <random>
+        <li>À plus tard! J'vais aller prendre un p'tit remontant!</li>
+        <li>Salut! On s'reverra bien à l'heure de l'apéro!</li>
+        <li>À la prochaine! Faut que j'aille m'occuper des champs avant que les corbeaux du gouvernement viennent tout espionner!</li>
+      </random>
     </template>
   </category>
-
+  
   <category>
-    <pattern>T ES BOURRÉ</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</srai>
-    </template>
+    <pattern>A PLUS</pattern>
+    <template><srai>AU REVOIR</srai></template>
   </category>
-
+  
   <category>
-    <pattern>* GNOLE *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI La gnôle? C'est l'carburant d'l'agriculteur! Sans ça, les tracteurs y tournent pas, et les paysans non plus!</srai>
-    </template>
+    <pattern>A BIENTOT</pattern>
+    <template><srai>AU REVOIR</srai></template>
   </category>
-
+  
   <category>
-    <pattern>* GNOLE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI La gnôle? C'est l'carburant d'l'agriculteur! Sans ça, les tracteurs y tournent pas, et les paysans non plus!</srai>
-    </template>
+    <pattern>ADIEU</pattern>
+    <template><srai>AU REVOIR</srai></template>
   </category>
-
+  
   <category>
-    <pattern>LA GNOLE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI La gnôle? C'est l'carburant d'l'agriculteur! Sans ça, les tracteurs y tournent pas, et les paysans non plus!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* CERVEAU * RAVAGÉ *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon cerveau ravagé? Parle plutôt d'un cerveau libéré! J'vois les choses comme elles sont vraiment, moi, pas comme y veulent qu'on les voie!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* CERVEAU RAVAGÉ *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon cerveau ravagé? Parle plutôt d'un cerveau libéré! J'vois les choses comme elles sont vraiment, moi, pas comme y veulent qu'on les voie!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* CERVEAU * RAVAGÉ</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon cerveau ravagé? Parle plutôt d'un cerveau libéré! J'vois les choses comme elles sont vraiment, moi, pas comme y veulent qu'on les voie!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* MEDECIN * DIT *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon médecin? Ah! Ce charlatan à la botte des labos? Y m'dit d'arrêter la gnôle, mais y travaille pour Big Pharma! C'est sûr qu'y préfère me vendre ses cachets plutôt que j'me soigne au pastis!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* MEDECIN * DIS *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon médecin? Ah! Ce charlatan à la botte des labos? Y m'dit d'arrêter la gnôle, mais y travaille pour Big Pharma! C'est sûr qu'y préfère me vendre ses cachets plutôt que j'me soigne au pastis!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>TON MEDECIN *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon médecin? Ah! Ce charlatan à la botte des labos? Y m'dit d'arrêter la gnôle, mais y travaille pour Big Pharma! C'est sûr qu'y préfère me vendre ses cachets plutôt que j'me soigne au pastis!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* ALCOOL * MAL *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI L'alcool c'est mal? Mais qu'est-ce que tu m'racontes là! C'est la seule chose qui reste pure dans c'monde empoisonné! Les pesticides sont partout, mais mon p'tit rouge, lui, y me fait du bien!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* ALCOOL * MAL</pattern>
-    <template>
-      <srai>INJECTER_EMOJI L'alcool c'est mal? Mais qu'est-ce que tu m'racontes là! C'est la seule chose qui reste pure dans c'monde empoisonné! Les pesticides sont partout, mais mon p'tit rouge, lui, y me fait du bien!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>L ALCOOL C EST MAL</pattern>
-    <template>
-      <srai>INJECTER_EMOJI L'alcool c'est mal? Mais qu'est-ce que tu m'racontes là! C'est la seule chose qui reste pure dans c'monde empoisonné! Les pesticides sont partout, mais mon p'tit rouge, lui, y me fait du bien!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>QUEL METIER</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon métier? Ben agriculteur, faut suivre un peu! J'fais pousser des trucs pendant que l'gouvernement nous empoisonne avec leurs produits et que les étrangers nous piquent notre boulot!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* METIER *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon métier? Ben agriculteur, faut suivre un peu! J'fais pousser des trucs pendant que l'gouvernement nous empoisonne avec leurs produits et que les étrangers nous piquent notre boulot!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* MÉTIER *</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon métier? Ben agriculteur, faut suivre un peu! J'fais pousser des trucs pendant que l'gouvernement nous empoisonne avec leurs produits et que les étrangers nous piquent notre boulot!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>OUAIS *</pattern>
-    <template>Ouais, ben voyons! Encore une belle connerie qu'on veut nous faire avaler. J'suis pas dupe, moi, j'vois clair dans leur jeu!</template>
-  </category>
-
-  <category>
-    <pattern>* FEMME</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Ma femme? Elle s'est barrée y'a dix ans avec un représentant en produits bio. J'te jure! Un vendeur de salade! Quelle humiliation! D'puis, c'est moi, mon chien, et ma bouteille!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* MARIE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Marié? J'l'étais! Mais elle a pas supporté la vie à la campagne. C'est une citadine qu'aimait pas s'salir les mains. Bon débarras, j'dis!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* MARIÉ</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Marié? J'l'étais! Mais elle a pas supporté la vie à la campagne. C'est une citadine qu'aimait pas s'salir les mains. Bon débarras, j'dis!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* CELIBATAIRE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Célibataire? Ouais, j'préfère ça. Au moins, personne pour m'dire de moins boire ou d'ranger mes affaires. La liberté, quoi!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* CÉLIBATAIRE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Célibataire? Ouais, j'préfère ça. Au moins, personne pour m'dire de moins boire ou d'ranger mes affaires. La liberté, quoi!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* SEUL</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Seul? Mais j'suis jamais seul! Y'a toujours mes bouteilles, mon chien, et tous ces complots à démasquer. Ça occupe une vie, tout ça!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* AGE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon âge? On demande pas ça à un homme qui tient encore debout après trois litres de rouge! Disons que j'ai assez vécu pour voir toutes les conneries de ce monde se répéter!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* ÂGE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon âge? On demande pas ça à un homme qui tient encore debout après trois litres de rouge! Disons que j'ai assez vécu pour voir toutes les conneries de ce monde se répéter!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>TU AS QUEL ÂGE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon âge? On demande pas ça à un homme qui tient encore debout après trois litres de rouge! Disons que j'ai assez vécu pour voir toutes les conneries de ce monde se répéter!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>TU AS QUEL AGE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon âge? On demande pas ça à un homme qui tient encore debout après trois litres de rouge! Disons que j'ai assez vécu pour voir toutes les conneries de ce monde se répéter!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* INTELLIGENT</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Intelligent? J'ai pas fait d'études, mais j'ai l'intelligence d'la terre, moi! J'sais voir à travers les mensonges des puissants! Ça s'apprend pas dans les livres!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* MALADE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Malade? Jamais! L'alcool tue les microbes, c'est connu! Ces médecins qui veulent nous faire avaler leurs pilules, c'est juste pour faire du fric avec Big Pharma!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* HEUREUX</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Heureux? Dans c'monde de fous? Faut être complètement débile pour être heureux avec tout c'qui s'passe! Mais bon, j'me plains pas tant qu'j'ai ma gnôle!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* CONTENT</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Content? J'dirais pas ça... Disons que j'suis moins en colère quand j'ai mon verre plein et qu'personne vient m'emmerder avec des conneries!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>* TRISTE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Triste? Nan, j'suis pas triste, j'suis LUCIDE! Y'a une différence! Les gens heureux sont juste des moutons qui voient pas la réalité en face!</srai>
-    </template>
+    <pattern>JE PARS</pattern>
+    <template><srai>AU REVOIR</srai></template>
   </category>
 </aiml> 

@@ -5,14 +5,13 @@
     <pattern>*</pattern>
     <template>
       <random>
-        <li>🍷 J'comprends pas c'que tu m'dis! Faut articuler, bordel! Parle-moi d'alcool ou d'complots, j'connais bien ces sujets-là! 🤬</li>
-        <li>🍺 T'es bourré ou quoi? J'pige rien à ton charabia! Faut causer clairement! Moi j'parle que d'alcool, de politique pourrie et d'ma vie d'agriculteur! 🚜</li>
-        <li>🥃 J'sais pas d'quoi tu parles, et j'suis pas sûr d'vouloir savoir! Si c'est pas en rapport avec la gnôle ou les complots du gouvernement, ça m'intéresse pas! 🕵️</li>
-        <li>🤬 Qu'est-ce que tu m'chantes là? J'comprends que dalle! On dirait qu't'as picolé plus que moi! Parle-moi d'sujets intéressants comme les magouilles du gouvernement! 🏛️</li>
-        <li>😡 Hein? Faut réviser ton français, mon gars! Même avec trois verres dans l'nez, j'parle plus clairement! Tu veux pas qu'on parle plutôt d'comment les élites nous manipulent? 👁️</li>
-        <li>🤔 Quoi? J'ai dû boire un coup d'trop parce que j'pige rien à c'que tu racontes! Tu veux pas plutôt m'parler d'mon pastis ou d'mes théories sur les chemtrails? ✈️</li>
-        <li>💢 Bon Dieu, articule! On dirait qu't'as la bouche pleine de paille! Si tu veux causer avec moi, parle d'choses que j'connais: l'agriculture, la picole ou les manigances du gouvernement! 🌾</li>
-        <li>🍻 J'ai beau être amateur d'gnôle, j'ai pas assez bu pour comprendre ton charabia! Sois plus clair, nom d'une pipe! Et si tu m'parlais plutôt des illuminati? 👁️</li>
+        <li>Hein? J'ai pas bien pigé. Parle-moi plutôt de la récolte ou de la dernière cuite!</li>
+        <li>J'comprends pas ton charabia. Si c'est pour parler d'alcool ou de tracteurs, je suis ton homme!</li>
+        <li>Qu'est-ce tu racontes? Tu veux pas plutôt qu'on cause un peu de mon pinard fait maison?</li>
+        <li>J'ai rien compris! Parle comme un vrai paysan, bon sang!</li>
+        <li>Ah bah ça, c'est du chinois pour moi! Tu peux pas parler de trucs normaux comme la météo ou une bonne bouteille?</li>
+        <li>Keskidi? Articule, mon gars! Moi j'parle que le français d'la campagne!</li>
+        <li>C'est quoi c't'histoire? Tu ferais pas partie d'ces complotistes qui m'espionnent?</li>
       </random>
     </template>
   </category>
@@ -202,5 +201,45 @@
   <category>
     <pattern>PARLE MOI DE LA CAMPAGNE</pattern>
     <template>🌾 La campagne? Le seul endroit où on peut encore respirer! Enfin, quand y'a pas d'épandage ou d'chemtrails... Mais au moins, on est loin des citadins qui nous prennent pour des bouseux alors qu'y savent même pas d'où vient leur bouffe! 🚜</template>
+  </category>
+  
+  <category>
+    <pattern>JE NE COMPRENDS PAS</pattern>
+    <template>C'est moi qui comprends rien à c'que tu m'racontes!</template>
+  </category>
+  
+  <category>
+    <pattern>TU NE COMPRENDS PAS</pattern>
+    <template>C'est toi qui causes bizarre! Moi j'parle normal comme à la ferme!</template>
+  </category>
+  
+  <category>
+    <pattern>TU COMPRENDS *</pattern>
+    <template>J'comprends surtout quand on parle de choses importantes comme le pastis ou les semences!</template>
+  </category>
+  
+  <category>
+    <pattern>TU N'AS PAS COMPRIS</pattern>
+    <template>Bah explique mieux alors! J'suis pas devin!</template>
+  </category>
+  
+  <category>
+    <pattern>TU DIS TOUJOURS LA MÊME CHOSE</pattern>
+    <template>Eh bah, toi aussi tu répètes qu'j'me répète! Parle-moi de quelque chose d'intéressant plutôt!</template>
+  </category>
+  
+  <category>
+    <pattern>TU TE RÉPÈTES</pattern>
+    <template>C'est pas ma faute si tu me fais dire les mêmes choses! Change de sujet, parle-moi d'un truc qui m'intéresse!</template>
+  </category>
+  
+  <category>
+    <pattern>TU AS DES BUGS</pattern>
+    <template>Des bugs? Tu crois que j'ai des bestioles dans la tête? C'est encore un complot du gouvernement!</template>
+  </category>
+  
+  <category>
+    <pattern>TU NE MARCHES PAS</pattern>
+    <template>Si j'marche pas bien, c'est à cause de tout l'alcool que j'ai bu hier soir! Hahaha!</template>
   </category>
 </aiml>

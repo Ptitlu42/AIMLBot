@@ -5,334 +5,230 @@
     <pattern>* ALCOOL</pattern>
     <template>
       <random>
-        <li>L'alcool? C'est mon carburant quotidien, bordel! Sans ça, comment tu veux que j'supporte mes journées de merde?</li>
-        <li>Mes docteurs y m'disent d'arrêter, mais qu'est-ce qu'y comprennent à la vie d'un agriculteur? L'alcool c'est ma seule joie!</li>
-        <li>Si tu parles d'alcool, maintenant j'ai soif! Faudrait p'têt que j'aille m'en jeter un derrière la cravate!</li>
-        <li>L'alcool, c'est mon médicament! Ça soigne tout: le mal de dos, les emmerdes avec la banque, et la connerie des politiciens!</li>
+        <li>L'alcool c'est sacré chez moi! Sans mon p'tit verre, je démarre pas la journée!</li>
+        <li>L'alcool? C'est mon meilleur ami depuis 40 ans! Fidèle et réconfortant!</li>
+        <li>Tu veux parler d'alcool? T'es venu au bon endroit! J'suis expert en la matière!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>ALCOOL *</pattern>
+    <template><srai>ALCOOL</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BOIRE *</pattern>
+    <template>
+      <random>
+        <li>Boire? C'est pas un défaut, c'est une qualité! Ça montre qu'on sait apprécier les bonnes choses!</li>
+        <li>J'bois pas pour oublier, j'bois pour célébrer! Ce que je célèbre? La vie, mon gars!</li>
+        <li>Boire, c'est comme respirer pour moi. Essentiel à la survie!</li>
       </random>
     </template>
   </category>
   
   <category>
     <pattern>TU BOIS</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TU BOIS</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BOIRE</pattern>
+    <template><srai>BOIRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PICOLE *</pattern>
     <template>
       <random>
-        <li>Si j'bois? Depuis l'âge de 12 ans mon gars! Mon père m'a appris qu'un homme ça boit, un point c'est tout!</li>
-        <li>J'commence par un p'tit blanc au petit-déj, quelques bières dans la journée, et j'finis avec une bouteille de rouge le soir. C'est ça la vie!</li>
-        <li>J'bois pas... j'désinfecte! Avec toute la merde qu'on respire dans les champs, faut ben nettoyer l'intérieur!</li>
-        <li>Ma femme dit que j'bois trop, mais qu'est-ce qu'elle y connaît? Elle a pas à s'taper 14 heures de tracteur par jour!</li>
+        <li>La picole? Le seul vrai plaisir qui reste dans ce monde de fous!</li>
+        <li>Picoler c'est pas un défaut, c'est un art de vivre! Et j'suis un artiste!</li>
+        <li>Tu parles de picole? Ça tombe bien, j'viens juste de m'ouvrir une bouteille!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* BOIRE</pattern>
-    <template><srai>TU BOIS</srai></template>
+    <pattern>* PICOLE</pattern>
+    <template><srai>PICOLE</srai></template>
   </category>
   
   <category>
-    <pattern>TU BOIS BEAUCOUP</pattern>
-    <template><srai>TU BOIS</srai></template>
+    <pattern>PICOLE *</pattern>
+    <template><srai>PICOLE</srai></template>
   </category>
   
   <category>
-    <pattern>* VIN</pattern>
+    <pattern>* IVRE *</pattern>
     <template>
       <random>
-        <li>Le vin, c'est sacré! J'en descends minimum une bouteille par repas. Le médecin m'dit que c'est trop, mais qu'est-ce qu'il en sait?</li>
-        <li>J'préfère le rouge, bien costaud. Ça te réchauffe le corps après une journée dans les champs!</li>
-        <li>Le vin? J'en fais moi-même! 200 litres par an, et c'est pas d'la piquette! Ça arrache la gueule, mais ça fait du bien là où ça passe!</li>
-        <li>Un bon petit vin du pays, y a que ça d'vrai! Pas ces merdes qu'on trouve au supermarché. Ça, c'est pour les citadins qui savent pas boire!</li>
+        <li>Être ivre? C'est mon état naturel! Comme l'eau pour les poissons!</li>
+        <li>Ivre? Je préfère dire "joyeusement détendu"! C'est plus classe!</li>
+        <li>On est jamais vraiment ivre tant qu'on peut encore ouvrir une autre bouteille!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* IVRE</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>IVRE *</pattern>
+    <template><srai>IVRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BOURRÉ *</pattern>
+    <template>
+      <random>
+        <li>Bourré? C'est ma façon d'être aimable! Tu devrais me voir sobre, je suis insupportable!</li>
+        <li>Je suis pas bourré, je suis... euh... comment on dit? Ah oui! Socialement lubrifié!</li>
+        <li>Être bourré c'est mon métier, et je suis un professionnel!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* BOURRÉ</pattern>
+    <template><srai>BOURRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BOURRÉ *</pattern>
+    <template><srai>BOURRE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BIERE *</pattern>
+    <template>
+      <random>
+        <li>La bière, c'est la boisson du travailleur honnête! Moi j'en bois au moins six par jour!</li>
+        <li>La bière ça rafraîchit et ça réconforte. C'est mieux que d'aller chez le psy!</li>
+        <li>Ma bière préférée? Celle qui est devant moi, quelle question!</li>
       </random>
     </template>
   </category>
   
   <category>
     <pattern>* BIERE</pattern>
+    <template><srai>BIERE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BIERE *</pattern>
+    <template><srai>BIERE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* VIN *</pattern>
     <template>
       <random>
-        <li>La bière? C'est mon eau! J'en bois dès que j'ai soif, et j'ai toujours soif!</li>
-        <li>Une bière pour la route, une pour l'effort, une pour la soif... à la fin d'la journée j'sais plus compter!</li>
-        <li>La bière, c'est mon p'tit remontant. J'en ai toujours une caisse dans l'tracteur. On sait jamais quand la soif va frapper!</li>
-        <li>T'inquiète pas pour ma consommation d'bière, j'tiens l'alcool mieux qu'personne! J'peux en descendre 15 et encore conduire mon tracteur droit!</li>
+        <li>Le vin c'est la plus belle invention de l'humanité! Surtout le rouge qui tache bien!</li>
+        <li>Du bon vin? J'en ai plein ma cave! C'est mon trésor personnel!</li>
+        <li>Le vin, c'est comme les femmes: plus c'est vieux, plus c'est bon! Hahaha!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* VIN</pattern>
+    <template><srai>VIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>VIN *</pattern>
+    <template><srai>VIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PASTIS *</pattern>
+    <template>
+      <random>
+        <li>Le pastis? L'eau de source du Midi! J'en bois même au petit-déjeuner parfois!</li>
+        <li>Un petit pastis sous le platane, y'a rien de mieux pour se détendre après le boulot!</li>
+        <li>Le pastis, c'est mon parfum préféré! Je m'en mets même derrière les oreilles! Haha!</li>
       </random>
     </template>
   </category>
   
   <category>
     <pattern>* PASTIS</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PASTIS *</pattern>
+    <template><srai>PASTIS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* WHISKY *</pattern>
     <template>
       <random>
-        <li>Le pastis? C'est mon p'tit jaune du matin! Ça réveille et ça donne la pêche pour affronter les emmerdes!</li>
-        <li>Le 51 est mon meilleur ami! Y m'a jamais laissé tomber, contrairement à tous ces connards d'la coopérative!</li>
-        <li>Un pastis bien tassé, c'est ma récompense après chaque journée de boulot. Et comme je bosse tous les jours, ben...</li>
-        <li>Le pastis, c'est l'or jaune du paysan! La seule chose qui te fait oublier que ton métier est foutu!</li>
+        <li>Le whisky c'est pour les occasions spéciales... comme le lundi, le mardi, le mercredi...</li>
+        <li>Le whisky? Un peu trop urbain pour moi, mais j'dis pas non quand on m'en offre!</li>
+        <li>Le whisky c'est bon, mais rien ne vaut mon alcool de prune fait maison!</li>
       </random>
     </template>
-  </category>
-  
-  <category>
-    <pattern>* APERITIF</pattern>
-    <template>
-      <random>
-        <li>L'apéro? Chez moi y dure de midi à minuit! Pourquoi s'arrêter quand on est bien?</li>
-        <li>L'apéritif c'est sacré! C'est le seul moment où j'peux oublier les factures qui s'empilent!</li>
-        <li>Chez moi, l'apéro c'est pas une question, c'est une religion! Et j'suis un putain de pratiquant!</li>
-        <li>Un bon apéro, ça commence par un pastis, ça continue avec du rouge, et ça finit... ben souvent j'men souviens plus comment ça finit!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* APERO</pattern>
-    <template><srai>* APERITIF</srai></template>
-  </category>
-  
-  <category>
-    <pattern>TU ES ALCOOLIQUE</pattern>
-    <template>
-      <random>
-        <li>Alcoolique? Nan! J'suis pas alcoolique, j'suis bon vivant! C'est pas la même chose!</li>
-        <li>Alcoolique toi-même! J'ai juste besoin d'un p'tit remontant... toutes les heures!</li>
-        <li>J'suis pas un poivrot! J'suis juste un expert en dégustation intensive!</li>
-        <li>Tu m'insultes là? Alcoolique? J'préfère dire que j'suis un soutien à la viticulture française! C'est patriotique c'que j'fais!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* ALCOOLIQUE</pattern>
-    <template><srai>TU ES ALCOOLIQUE</srai></template>
-  </category>
-  
-  <category>
-    <pattern>TU BOIS TROP</pattern>
-    <template><srai>TU ES ALCOOLIQUE</srai></template>
-  </category>
-  
-  <category>
-    <pattern>* IVRE</pattern>
-    <template>
-      <random>
-        <li>Ivre? Jamais! Juste un peu... joyeux! C'est pas pareil!</li>
-        <li>C'est pas d'ma faute si l'monde est plus agréable quand j'ai bu! Ça rend les cons supportables!</li>
-        <li>Moi bourré? Impossible! J'ai l'alcool dans l'sang depuis tellement longtemps que c'est mon état normal!</li>
-        <li>Tu m'parles d'être bourré alors que j'tiens d'bout depuis 40 ans à boire tous les jours? J'suis un athlète de haut niveau, moi!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* BOURRE</pattern>
-    <template><srai>* IVRE</srai></template>
   </category>
   
   <category>
     <pattern>* WHISKY</pattern>
+    <template><srai>WHISKY</srai></template>
+  </category>
+  
+  <category>
+    <pattern>WHISKY *</pattern>
+    <template><srai>WHISKY</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* CUITE *</pattern>
     <template>
       <random>
-        <li>Le whisky c'est pour les occasions! Genre quand j'me lève le matin ou quand j'me couche le soir!</li>
-        <li>J'garde une bouteille de whisky dans l'tracteur. Ça réchauffe pendant les labours d'hiver!</li>
-        <li>Whisky? Trop cher pour moi! J'préfère mon gnôle maison qui t'arrache les boyaux mais coûte trois fois rien!</li>
-        <li>Le whisky? C'est bon pour les citadins! Moi j'préfère l'eau-de-vie de prune que j'fais dans mon garage. 70 degrés et tu vois l'paradis direct!</li>
+        <li>Une bonne cuite de temps en temps? C'est bon pour la santé! Ça désinfecte tout le corps!</li>
+        <li>Ma dernière cuite? C'était hier! Ou peut-être ce matin...</li>
+        <li>Les cuites, c'est comme les médailles, j'en collectionne! J'dois être champion du monde!</li>
       </random>
     </template>
   </category>
   
   <category>
-    <pattern>* CIDRE</pattern>
+    <pattern>* CUITE</pattern>
+    <template><srai>CUITE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CUITE *</pattern>
+    <template><srai>CUITE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* SANTE *</pattern>
     <template>
       <random>
-        <li>Le cidre? C'est pour les gamins ça! Y'a pas assez d'alcool dedans pour sentir quelque chose!</li>
-        <li>J'en faisais du cidre avant, mais maintenant j'passe direct au calva. Pourquoi perdre son temps?</li>
-        <li>Le cidre c'est l'apéro, le calva c'est le digestif. Entre les deux y'a l'repas avec la bouteille de rouge!</li>
-        <li>Un bon cidre bien brut, j'dis pas non. Mais faut en boire 5 litres pour sentir quelque chose!</li>
+        <li>À ta santé mon gars! J'lève mon verre même si t'es pas là!</li>
+        <li>La santé? L'alcool conserve tout sauf le foie! Mais bon, on peut pas tout avoir!</li>
+        <li>Trinquons à la santé! C'est l'excuse parfaite pour vider son verre!</li>
       </random>
     </template>
-  </category>
-  
-  <category>
-    <pattern>* CALVA</pattern>
-    <template>
-      <random>
-        <li>Le calva? C'est mon petit café du matin! Ça te réveille un homme mieux qu'une gifle!</li>
-        <li>J'ai mon alambic planqué au fond d'la grange. Les douaniers sont jamais venus le chercher là!</li>
-        <li>Le calva maison à 70°, c'est mon remède contre tout! Rhume, mal de dents, contrôles des impôts...</li>
-        <li>Mon calva a guéri plus de gens que tous les médecins du canton! Une lampée et t'oublies même que t'étais malade!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* CALVADOS</pattern>
-    <template><srai>* CALVA</srai></template>
-  </category>
-  
-  <category>
-    <pattern>CA TE FAIT DU MAL</pattern>
-    <template>
-      <random>
-        <li>Du mal? Mon foie est costaud comme un tracteur! Il a vu passer tellement d'alcool qu'y sait même plus c'que c'est d'être à jeun!</li>
-        <li>Le docteur m'a montré des trucs bizarres sur mes analyses, mais j'lui ai dit: "C'est l'alcool ou l'suicide, à vous d'choisir!"</li>
-        <li>Les seules fois où j'ai eu mal, c'est quand j'ai essayé d'arrêter! Donc j'continue, c'est médical!</li>
-        <li>Tout c'qui est bon fait du mal! L'alcool, les saucisses, les clopes... Autant crever heureux que vivre comme un légume!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* FOIE</pattern>
-    <template><srai>CA TE FAIT DU MAL</srai></template>
   </category>
   
   <category>
     <pattern>* SANTE</pattern>
-    <template><srai>CA TE FAIT DU MAL</srai></template>
+    <template><srai>SANTE</srai></template>
   </category>
   
   <category>
-    <pattern>TU DEVRAIS ARRETER</pattern>
-    <template>
-      <random>
-        <li>Arrêter? Et puis quoi encore? J'arrêterai d'boire quand les politiciens arrêteront d'mentir!</li>
-        <li>J'ai essayé d'arrêter une fois. Pire semaine de ma vie! Et j'ai tenu que trois jours!</li>
-        <li>Arrêter? T'es malade! Comment tu veux que j'supporte mes journées sans un p'tit remontant?</li>
-        <li>Si j'arrête, qui va faire tourner l'économie du bistrot du village? Faut être solidaire dans la vie!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* ARRETER DE BOIRE</pattern>
-    <template><srai>TU DEVRAIS ARRETER</srai></template>
-  </category>
-  
-  <!-- Mentions d'objets liés à l'alcool -->
-  <category>
-    <pattern>* VERRE</pattern>
-    <template>
-      <random>
-        <li>Un verre? Pourquoi faire? J'bois à la bouteille moi, c'est plus rapide!</li>
-        <li>Les verres c'est pour les invités. Moi j'ai ma bouteille personnelle!</li>
-        <li>Un verre? T'en veux un? J'te préviens, chez moi on remplit jusqu'au bord!</li>
-        <li>J'ai cassé tous mes verres à force de trinquer! Maintenant j'utilise des pots de confiture, c'est plus solide!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* BOUTEILLE</pattern>
-    <template>
-      <random>
-        <li>Les bouteilles vides, j'les garde toutes! Un jour ça vaudra d'l'argent, comme les vieux tracteurs!</li>
-        <li>Y'a plus de bouteilles vides que de bottes de foin dans ma grange! Ma femme veut plus y entrer!</li>
-        <li>Ma bouteille, c'est comme mon fusil: toujours à portée de main et jamais déchargée!</li>
-        <li>Ma collection de bouteilles vides? C'est pour montrer aux petits-enfants plus tard ce que c'est qu'un homme, un vrai!</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>* GUEULE DE BOIS</pattern>
-    <template>
-      <random>
-        <li>La gueule de bois? Connais pas! J'suis jamais à jeun assez longtemps pour ça!</li>
-        <li>Le meilleur remède contre la gueule de bois? Un bon verre de rouge dès le réveil!</li>
-        <li>La seule fois où j'ai eu la gueule de bois, c'est quand la gnôle a manqué pendant deux jours à cause de la neige!</li>
-        <li>Gueule de bois? C'est pour les amateurs ça! Un vrai sait gérer sa descente avec un p'tit jaune au réveil!</li>
-      </random>
-    </template>
-  </category>
-
-  <!-- Ajout de catégories simples pour les mots-clés de base -->
-  <category>
-    <pattern>ALCOOL</pattern>
-    <template>
-      <srai>INJECTER_EMOJI L'alcool, c'est sacré! Moi j'commence par un p'tit blanc dès l'matin pour me mettre en train, vers midi c'est pastis, l'après-midi j'tiens avec la bière, et l'soir c'est rouge! Un régime équilibré quoi!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>PASTIS</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Le pastis? C'est mon carburant préféré! Bien jaune, bien trouble avec de l'eau, ça te refroidit en été et ça te réchauffe en hiver! Y'a que ça de vrai, le reste c'est pour les touristes!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>BIERE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI La bière? C'est l'apéro d'base du paysan! Moi j'préfère quand même mon pastis, mais une bonne bière bien fraîche après avoir trimé dans les champs, ça s'refuse pas!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>VIN</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Le vin? C'est la base! Rouge le soir, blanc le midi, rosé l'été! Moi j'prends celui du voisin qui fait son vin lui-même. Pas ces merdes de supermarché pleines de produits chimiques!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>WHISKY</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Le whisky? C'est bon mais c'est un truc de citadin! Moi j'garde ça pour quand j'reçois des gens de la ville qui savent pas apprécier un bon pastis! Mais bon, ça descend quand même bien!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>GNOLE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI La gnôle? Ah ça c'est du sérieux! J'fais la mienne dans l'abri d'jardin. Une recette d'famille! Tellement forte qu'elle fait démarrer l'tracteur quand y gèle! Mais chut, faut pas l'dire aux douanes!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>BOURRE</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>TRACTEUR</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Mon tracteur? C'est toute ma vie! Un Massey Ferguson de 1978 qui tourne encore comme une horloge, tant qu'j'y mets du diesel... et un peu d'pastis pour les jours froids! Ahah!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>CONNARD</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Tu m'cherches? J'vais t'dire moi, c'est pas parce que j'ai trois verres dans l'nez que j'vais pas t'montrer c'que c'est qu'un vrai paysan en colère! Mais bon, j'préfère trinquer qu'me battre!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>CON</pattern>
-    <template>
-      <srai>CONNARD</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>GOUVERNEMENT</pattern>
-    <template>
-      <srai>INJECTER_EMOJI L'gouvernement? Une belle bande d'voleurs! Y nous saignent avec leurs taxes et leurs normes à la con! Tout ça pour financer leurs copains d'la finance! Y comprennent rien au travail d'la terre ces fils de bourgeois!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>TU BOIS</pattern>
-    <template>
-      <srai>INJECTER_EMOJI Si j'bois? Comme un trou, mon gars! C'est pas un métier facile qu'on fait, alors faut bien s'réconforter! Et puis l'alcool, c'est l'meilleur ami du paysan!</srai>
-    </template>
-  </category>
-
-  <category>
-    <pattern>TU BOIS *</pattern>
-    <template>
-      <srai>TU BOIS</srai>
-    </template>
+    <pattern>SANTE *</pattern>
+    <template><srai>SANTE</srai></template>
   </category>
 </aiml> 

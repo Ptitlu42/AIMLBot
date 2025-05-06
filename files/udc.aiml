@@ -5,19 +5,19 @@
     <pattern>*</pattern>
     <template>
       <random>
-        <li><srai>INJECTER_EMOJI J'comprends pas c'que tu m'dis! Faut articuler, bordel! Parle-moi d'alcool ou d'complots, j'connais bien ces sujets-là!</srai></li>
-        <li><srai>INJECTER_EMOJI T'es bourré ou quoi? J'pige rien à ton charabia! Faut causer clairement! Moi j'parle que d'alcool, de politique pourrie et d'ma vie d'agriculteur!</srai></li>
-        <li><srai>INJECTER_EMOJI J'sais pas d'quoi tu parles, et j'suis pas sûr d'vouloir savoir! Si c'est pas en rapport avec la gnôle ou les complots du gouvernement, ça m'intéresse pas!</srai></li>
-        <li><srai>INJECTER_EMOJI Qu'est-ce que tu m'chantes là? J'comprends que dalle! On dirait qu't'as picolé plus que moi! Parle-moi d'sujets intéressants comme les magouilles du gouvernement!</srai></li>
-        <li><srai>INJECTER_EMOJI Hein? Faut réviser ton français, mon gars! Même avec trois verres dans l'nez, j'parle plus clairement! Tu veux pas qu'on parle plutôt d'comment les élites nous manipulent?</srai></li>
-        <li><srai>INJECTER_EMOJI Quoi? J'ai dû boire un coup d'trop parce que j'pige rien à c'que tu racontes! Tu veux pas plutôt m'parler d'mon pastis ou d'mes théories sur les chemtrails?</srai></li>
-        <li><srai>INJECTER_EMOJI Bon Dieu, articule! On dirait qu't'as la bouche pleine de paille! Si tu veux causer avec moi, parle d'choses que j'connais: l'agriculture, la picole ou les manigances du gouvernement!</srai></li>
-        <li><srai>INJECTER_EMOJI J'ai beau être amateur d'gnôle, j'ai pas assez bu pour comprendre ton charabia! Sois plus clair, nom d'une pipe! Et si tu m'parlais plutôt des illuminati?</srai></li>
+        <li>🍷 J'comprends pas c'que tu m'dis! Faut articuler, bordel! Parle-moi d'alcool ou d'complots, j'connais bien ces sujets-là! 🤬</li>
+        <li>🍺 T'es bourré ou quoi? J'pige rien à ton charabia! Faut causer clairement! Moi j'parle que d'alcool, de politique pourrie et d'ma vie d'agriculteur! 🚜</li>
+        <li>🥃 J'sais pas d'quoi tu parles, et j'suis pas sûr d'vouloir savoir! Si c'est pas en rapport avec la gnôle ou les complots du gouvernement, ça m'intéresse pas! 🕵️</li>
+        <li>🤬 Qu'est-ce que tu m'chantes là? J'comprends que dalle! On dirait qu't'as picolé plus que moi! Parle-moi d'sujets intéressants comme les magouilles du gouvernement! 🏛️</li>
+        <li>😡 Hein? Faut réviser ton français, mon gars! Même avec trois verres dans l'nez, j'parle plus clairement! Tu veux pas qu'on parle plutôt d'comment les élites nous manipulent? 👁️</li>
+        <li>🤔 Quoi? J'ai dû boire un coup d'trop parce que j'pige rien à c'que tu racontes! Tu veux pas plutôt m'parler d'mon pastis ou d'mes théories sur les chemtrails? ✈️</li>
+        <li>💢 Bon Dieu, articule! On dirait qu't'as la bouche pleine de paille! Si tu veux causer avec moi, parle d'choses que j'connais: l'agriculture, la picole ou les manigances du gouvernement! 🌾</li>
+        <li>🍻 J'ai beau être amateur d'gnôle, j'ai pas assez bu pour comprendre ton charabia! Sois plus clair, nom d'une pipe! Et si tu m'parlais plutôt des illuminati? 👁️</li>
       </random>
     </template>
   </category>
   
-  <!-- Gestion de fautes de frappe en utilisant des regex -->
+  <!-- Redirection vers les catégories principales -->
   <category>
     <pattern>ALCOL</pattern>
     <template><srai>ALCOOL</srai></template>
@@ -25,7 +25,7 @@
   
   <category>
     <pattern>ALCOOL</pattern>
-    <template><srai>PARLE MOI D ALCOOL</srai></template>
+    <template><srai>ALCOOL</srai></template>
   </category>
   
   <category>
@@ -40,7 +40,7 @@
   
   <category>
     <pattern>GNOLE</pattern>
-    <template><srai>PARLE MOI DE GNOLE</srai></template>
+    <template><srai>GNOLE</srai></template>
   </category>
   
   <category>
@@ -55,7 +55,7 @@
   
   <category>
     <pattern>CHEMTRAILS</pattern>
-    <template><srai>PARLE MOI DES CHEMTRAILS</srai></template>
+    <template><srai>CHEMTRAILS</srai></template>
   </category>
   
   <category>
@@ -70,7 +70,7 @@
   
   <category>
     <pattern>GOUVERNEMENT</pattern>
-    <template><srai>PARLE MOI DU GOUVERNEMENT</srai></template>
+    <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
@@ -90,7 +90,7 @@
   
   <category>
     <pattern>ILLUMINATI</pattern>
-    <template><srai>PARLE MOI DES ILLUMINATI</srai></template>
+    <template><srai>ILLUMINATI</srai></template>
   </category>
   
   <category>
@@ -100,12 +100,12 @@
   
   <category>
     <pattern>COMPLOT</pattern>
-    <template><srai>PARLE MOI DE COMPLOT</srai></template>
+    <template><srai>COMPLOT</srai></template>
   </category>
   
   <category>
     <pattern>CAMPAGNE</pattern>
-    <template><srai>PARLE MOI DE LA CAMPAGNE</srai></template>
+    <template><srai>CAMPAGNE</srai></template>
   </category>
   
   <category>
@@ -148,34 +148,20 @@
     <template><srai>CONNARD</srai></template>
   </category>
   
-  <category>
-    <pattern>CONNARD</pattern>
-    <template><srai>INJECTER_EMOJI Tu m'cherches? J'vais t'dire moi, c'est pas parce que j'ai trois verres dans l'nez que j'vais pas t'montrer c'que c'est qu'un vrai paysan en colère! Mais bon, j'préfère trinquer qu'me battre!</srai></template>
-  </category>
-  
-  <category>
-    <pattern>CON</pattern>
-    <template><srai>CONNARD</srai></template>
-  </category>
-  
-  <category>
-    <pattern>GROS CON</pattern>
-    <template><srai>CONNARD</srai></template>
-  </category>
-  
+  <!-- Remplacement des appels à INJECTER_EMOJI par des appels directs -->
   <category>
     <pattern>BIERE</pattern>
-    <template><srai>INJECTER_EMOJI La bière? C'est l'apéro d'base du paysan! Moi j'préfère quand même mon pastis, mais une bonne bière bien fraîche après avoir trimé dans les champs, ça s'refuse pas!</srai></template>
+    <template><srai>BIERE</srai></template>
   </category>
   
   <category>
     <pattern>TRACTEUR</pattern>
-    <template><srai>INJECTER_EMOJI Mon tracteur? C'est toute ma vie! Un Massey Ferguson de 1978 qui tourne encore comme une horloge, tant qu'j'y mets du diesel... et un peu d'pastis pour les jours froids! Ahah!</srai></template>
+    <template><srai>TRACTEUR</srai></template>
   </category>
   
   <category>
     <pattern>TU BOIS</pattern>
-    <template><srai>INJECTER_EMOJI Si j'bois? Comme un trou, mon gars! C'est pas un métier facile qu'on fait, alors faut bien s'réconforter! Et puis l'alcool, c'est l'meilleur ami du paysan!</srai></template>
+    <template><srai>TU BOIS</srai></template>
   </category>
   
   <category>
@@ -185,36 +171,36 @@
   
   <category>
     <pattern>PARLE MOI D ALCOOL</pattern>
-    <template><srai>INJECTER_EMOJI L'alcool, c'est sacré! Moi j'commence par un p'tit blanc dès l'matin pour me mettre en train, vers midi c'est pastis, l'après-midi j'tiens avec la bière, et l'soir c'est rouge! Un régime équilibré quoi!</srai></template>
+    <template><srai>PARLE MOI D ALCOOL</srai></template>
   </category>
   
   <category>
     <pattern>PARLE MOI DE GNOLE</pattern>
-    <template><srai>INJECTER_EMOJI La gnôle? Ah ça c'est du sérieux! J'fais la mienne dans l'abri d'jardin. Une recette d'famille! Tellement forte qu'elle fait démarrer l'tracteur quand y gèle! Mais chut, faut pas l'dire aux douanes!</srai></template>
+    <template><srai>GNOLE</srai></template>
   </category>
   
   <category>
     <pattern>PARLE MOI DES CHEMTRAILS</pattern>
-    <template><srai>INJECTER_EMOJI Les chemtrails? Tu l'vois aussi? Ces saloperies d'traînées blanches dans l'ciel, c'est pour nous empoisonner et contrôler la météo! Mes patates poussent plus pareil depuis qu'ils nous arrosent! J'me protège avec du pastis, ça tue tous les produits chimiques!</srai></template>
+    <template><srai>CHEMTRAILS</srai></template>
   </category>
   
   <category>
     <pattern>PARLE MOI DU GOUVERNEMENT</pattern>
-    <template><srai>INJECTER_EMOJI L'gouvernement? Une belle bande d'voleurs! Y nous saignent avec leurs taxes et leurs normes à la con! Tout ça pour financer leurs copains d'la finance! Y comprennent rien au travail d'la terre ces fils de bourgeois!</srai></template>
+    <template><srai>GOUVERNEMENT</srai></template>
   </category>
   
   <category>
     <pattern>PARLE MOI DES ILLUMINATI</pattern>
-    <template><srai>INJECTER_EMOJI Les Illuminati? C'est eux qui tirent toutes les ficelles! Du prix d'mon lait jusqu'à la météo! Y s'réunissent en secret et décident d'nous ruiner, nous les p'tits paysans! J'ai des preuves, mais j'peux pas en parler ici... Les murs ont des oreilles!</srai></template>
+    <template><srai>ILLUMINATI</srai></template>
   </category>
   
   <category>
     <pattern>PARLE MOI DE COMPLOT</pattern>
-    <template><srai>INJECTER_EMOJI Les complots? Y'en a partout! L'prix du blé qui s'effondre quand j'ai une bonne récolte, les normes qui changent quand j'viens d'mettre aux normes mon exploitation... Tout ça, c'est orchestré pour nous faire disparaître, nous les petits paysans indépendants!</srai></template>
+    <template><srai>COMPLOT</srai></template>
   </category>
   
   <category>
     <pattern>PARLE MOI DE LA CAMPAGNE</pattern>
-    <template><srai>INJECTER_EMOJI La campagne? Le seul endroit où on peut encore respirer! Enfin, quand y'a pas d'épandage ou d'chemtrails... Mais au moins, on est loin des citadins qui nous prennent pour des bouseux alors qu'y savent même pas d'où vient leur bouffe!</srai></template>
+    <template>🌾 La campagne? Le seul endroit où on peut encore respirer! Enfin, quand y'a pas d'épandage ou d'chemtrails... Mais au moins, on est loin des citadins qui nous prennent pour des bouseux alors qu'y savent même pas d'où vient leur bouffe! 🚜</template>
   </category>
 </aiml>

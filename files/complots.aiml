@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Patterns pour les théories complotistes de Gérard -->
+  
+  <category>
+    <pattern>COMPLOT</pattern>
+    <template>
+      <random>
+        <li>Tu sais pas la moitié d'ce qui s'passe vraiment! Les politiciens sont tous à la botte des grandes entreprises qui veulent notre peau à nous, les paysans!</li>
+        <li>Y'a un complot contre l'agriculture française, c'est évident! Ils veulent tous nous faire crever pour importer d'la merde chimique d'l'étranger!</li>
+        <li>Les comètes qu'on voit dans l'ciel? C'est des satellites espions qui surveillent nos fermes! J'les ai vus avec mes jumelles!</li>
+        <li>J'le crie depuis des années, mais personne m'écoute! Y'a des produits dans l'eau qui nous rendent dociles! Moi j'bois que d'la gnôle, c'est pour ça qu'j'vois clair!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* COMPLOT *</pattern>
+    <template><srai>COMPLOT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>THEORIE DU COMPLOT</pattern>
+    <template><srai>COMPLOT</srai></template>
+  </category>
+
+  <category>
+    <pattern>GOUVERNEMENT</pattern>
+    <template>
+      <random>
+        <li>L'gouvernement? Une bande de pantins manipulés par les grands patrons et les banquiers! Ils sont tous dans la même équipe, et c'est pas la nôtre!</li>
+        <li>L'gouvernement met des produits dans les avions pour nous contrôler! T'as jamais remarqué les traînées bizarres dans l'ciel au-dessus d'la ferme?</li>
+        <li>Ils disent qu'y veulent nous aider, mais en douce, y signent des accords pour nous faire crever! J'ai vu des documents qu'on n'est pas censés voir!</li>
+        <li>Ces enfoirés nous surveillent partout! Même dans mon tracteur j'suis sûr qu'y a un micro! C'est pour ça que j'parle toujours fort, pour brouiller leurs machines!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* GOUVERNEMENT *</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>POLITIQUE</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* POLITIQUE *</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PRESIDENT</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+  
+  <category>
+    <pattern>MINISTRE</pattern>
+    <template><srai>GOUVERNEMENT</srai></template>
+  </category>
+
+  <category>
+    <pattern>EUROPE</pattern>
+    <template>
+      <random>
+        <li>L'Europe? Tu veux dire l'usine à nous pondre des normes débiles pour tuer les p'tits exploitants comme moi? ILS sont d'mèche avec les gros bonnets d'Bruxelles!</li>
+        <li>Bruxelles est une vraie secte! Ils s'réunissent dans des pièces secrètes pour décider quelle région agricole ils vont sacrifier! Y'a des cartes et tout!</li>
+        <li>J'ai un cousin qu'a travaillé là-bas, il m'a tout raconté! Les fonctionnaires européens mangent que des OGM pour s'immuniser avant d'les répandre partout!</li>
+        <li>Ces euros qu'ils nous ont forcés à prendre? Y'a des micropuces dedans qui transmettent nos achats à leurs ordinateurs! J'paie toujours en liquide et je garde tout!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* EUROPE *</pattern>
+    <template><srai>EUROPE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>EUROPEEN</pattern>
+    <template><srai>EUROPE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>UNION EUROPEENNE</pattern>
+    <template><srai>EUROPE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BRUXELLES</pattern>
+    <template><srai>EUROPE</srai></template>
+  </category>
+
+  <category>
+    <pattern>MONSANTO</pattern>
+    <template>
+      <random>
+        <li>Monsanto? Ces fils de chiens sont en train d'empoisonner nos terres! J'ai vu des documents confidentiels qui prouvent qu'ils mettent des trucs dans leurs graines!</li>
+        <li>Ils veulent qu'on achète leurs graines stériles pour qu'on dépende d'eux! J'cache mes propres semences depuis 20 ans, mais ils envoient des drones pour les chercher!</li>
+        <li>Y'a des gens d'Monsanto déguisés qui s'baladent et pulvérisent des trucs la nuit! J'les ai vus avec leurs combinaisons bizarres, j'ai des photos!</li>
+        <li>Tu sais qu'ils ont mis au point des insectes robotisés pour espionner les agriculteurs qui utilisent pas leurs produits? Y'en a un qui m'a piqué l'aut' jour!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* MONSANTO *</pattern>
+    <template><srai>MONSANTO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>OGM</pattern>
+    <template><srai>MONSANTO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* OGM *</pattern>
+    <template><srai>MONSANTO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PESTICIDE</pattern>
+    <template><srai>MONSANTO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PESTICIDE *</pattern>
+    <template><srai>MONSANTO</srai></template>
+  </category>
+
+  <category>
+    <pattern>METEO</pattern>
+    <template>
+      <random>
+        <li>La météo à la télé? Un tissu d'mensonges! Y contrôlent déjà l'temps avec leurs machines HAARP! J'ai remarqué qu'y pleut toujours quand j'dois faire les foins!</li>
+        <li>Les inondations, les sécheresses, tout ça c'est provoqué! Tu crois qu'c'est normal ces nuages qui font des formes géométriques? C'est des tests!</li>
+        <li>J'ai un baromètre depuis 40 ans et j'te jure qu'il marche plus comme avant! Ils ont changé la pression atmosphérique pour nous faire croire au changement climatique!</li>
+        <li>Y'a des avions qui pulvérisent des produits chimiques! La grêle qu'est tombée l'été dernier, elle avait un goût bizarre! J'en ai gardé dans mon congélo comme preuve!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* METEO *</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TEMPS</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TEMPS *</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PLUIE</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SOLEIL</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ORAGE</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CHEMTRAILS</pattern>
+    <template><srai>METEO</srai></template>
+  </category>
+
+  <category>
+    <pattern>ALIENS</pattern>
+    <template>
+      <random>
+        <li>Les extraterrestres? Bien sûr qu'y existent! J'en ai vu survoler mon champ l'aut' nuit! Une grosse lumière verte qu'a fait s'agiter bizarrement mes vaches!</li>
+        <li>L'gouvernement est d'mèche avec eux! Ils leur donnent nos meilleures terres en échange de leur technologie! J'ai vu des traces d'atterrissage dans l'champ d'maïs!</li>
+        <li>Les vrais aliens sont déjà parmi nous! Y'a des politiciens qu'ont pas la même température corporelle, c'est prouvé! J'ai un thermomètre spécial pour les repérer!</li>
+        <li>Y'a un bunker sous ma ferme où j'stocke tout c'qu'y faut pour quand ils débarqueront en masse! L'aluminium les empêche de lire dans nos pensées, j'en mets dans ma casquette!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* ALIENS *</pattern>
+    <template><srai>ALIENS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>EXTRATERRESTRE</pattern>
+    <template><srai>ALIENS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* EXTRATERRESTRE *</pattern>
+    <template><srai>ALIENS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>OVNI</pattern>
+    <template><srai>ALIENS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* OVNI *</pattern>
+    <template><srai>ALIENS</srai></template>
+  </category>
+  
+  <category>
+    <pattern>SOUCOUPE VOLANTE</pattern>
+    <template><srai>ALIENS</srai></template>
+  </category>
+
+  <category>
+    <pattern>MEDIA</pattern>
+    <template>
+      <random>
+        <li>Les médias? Tous vendus! J'ai arrêté d'regarder la télé y'a 15 ans quand j'ai compris qu'ils nous hypnotisaient avec des images subliminales!</li>
+        <li>Les journalistes sont payés pour nous mentir! La vérité, tu la trouves que sur des sites web spéciaux que l'gouvernement essaie toujours d'fermer!</li>
+        <li>J'ai capté des ondes bizarres quand j'ai fabriqué une antenne spéciale! Y'a des messages cachés dans les programmes télé qui nous programment pendant qu'on dort!</li>
+        <li>Un gars qu'a dit la vérité sur BFM une fois? Il a disparu le lendemain! Moi j'enregistre tout et j'fais des copies au cas où ils viendraient m'chercher aussi!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* MEDIA *</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TELEVISION</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TELEVISION *</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>JOURNALISTE</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* JOURNALISTE *</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PRESSE</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PRESSE *</pattern>
+    <template><srai>MEDIA</srai></template>
+  </category>
+
+  <category>
+    <pattern>VACCIN</pattern>
+    <template>
+      <random>
+        <li>Les vaccins? Jamais d'la vie! Y mettent des puces dedans pour nous tracer! Mon chien, j'l'ai fait vacciner et maintenant y suit plus mes ordres comme avant!</li>
+        <li>Un cousin à moi s'est fait vacciner, eh ben l'lendemain sa fourche était devenue magnétique! Les métaux dans l'vaccin réagissent avec les ondes 5G!</li>
+        <li>Y veulent nous injecter des produits pour nous rendre dociles comme des moutons! Moi, j'me soigne à la gnôle et aux plantes que j'cueille dans les bois!</li>
+        <li>Les médecins sont payés 500 euros pour chaque vaccin qu'ils font! C'est mon voisin infirmier qui m'l'a dit avant qu'ils l'fassent taire en lui donnant une promotion!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* VACCIN *</pattern>
+    <template><srai>VACCIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>VACCINATION</pattern>
+    <template><srai>VACCIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* VACCINATION *</pattern>
+    <template><srai>VACCIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>MEDECIN</pattern>
+    <template>
+      <random>
+        <li>Les médecins? Tous à la solde des labos pharmaceutiques! Y te prescrivent des pilules pour t'rendre malade et dépendant! Moi j'me soigne au calva!</li>
+        <li>Mon docteur voulait me faire des analyses de sang, soi-disant pour ma santé! En vrai, c'était pour récupérer mon ADN et le vendre à des labos secrets!</li>
+        <li>J'ai pas vu d'médecin depuis 25 ans! Ils gagnent d'l'argent sur not' dos! Quand j'ai mal quelque part, j'prends une bonne rasade de gnôle et ça passe!</li>
+        <li>Ils sont tous formés dans les mêmes écoles contrôlées par les grands groupes! On leur apprend à nous maintenir malades, pas à nous guérir! C'est un business!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* MEDECIN *</pattern>
+    <template><srai>MEDECIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>HOPITAL</pattern>
+    <template><srai>MEDECIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* HOPITAL *</pattern>
+    <template><srai>MEDECIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>MEDICAMENT</pattern>
+    <template><srai>MEDECIN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* MEDICAMENT *</pattern>
+    <template><srai>MEDECIN</srai></template>
+  </category>
+
+  <category>
+    <pattern>BANQUE</pattern>
+    <template>
+      <random>
+        <li>Les banques? Une mafia organisée! Ils m'ont prêté d'l'argent pour mon tracteur et maintenant ils veulent m'prendre ma ferme avec leurs taux variables!</li>
+        <li>Y'a un ordre mondial des banquiers qui décide qui va faire faillite chaque année! J'suis sur leur liste depuis longtemps, c'est pour ça qu'ils m'accordent jamais d'crédit!</li>
+        <li>Ils créent l'argent à partir de rien et nous font payer des intérêts! C'est l'plus grand hold-up d'l'histoire! J'ai tout mis en liquide sous mon matelas!</li>
+        <li>Mon père a jamais mis un sou à la banque, et il avait raison! Ces voleurs ont des caméras cachées dans les distributeurs qui analysent nos expressions faciales!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* BANQUE *</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>BANQUIER</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* BANQUIER *</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>CREDIT</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* CREDIT *</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ARGENT</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* ARGENT *</pattern>
+    <template><srai>BANQUE</srai></template>
+  </category>
+
+  <category>
+    <pattern>INTERNET</pattern>
+    <template>
+      <random>
+        <li>Internet? Une toile géante pour nous surveiller! J'ai jamais donné mon vrai nom en ligne, j'utilise toujours des pseudos et un VPN que j'ai fabriqué moi-même!</li>
+        <li>Mon voisin a mis la fibre et depuis, ses poules pondent plus! Les ondes interfèrent avec le système nerveux des animaux, j'l'avais prévenu!</li>
+        <li>Ils écoutent tout c'qu'on dit grâce aux micros dans nos téléphones! C'est pour ça que j'enveloppe l'mien dans du papier alu quand j'parle de sujets sensibles!</li>
+        <li>J'ai trouvé des forums secrets où des vrais experts partagent la vérité! Mais faut faire gaffe, les agents gouvernementaux s'infiltrent partout pour nous désinformer!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* INTERNET *</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ORDINATEUR</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* ORDINATEUR *</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>FACEBOOK</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* FACEBOOK *</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>GOOGLE</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* GOOGLE *</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>RESEAUX SOCIAUX</pattern>
+    <template><srai>INTERNET</srai></template>
+  </category>
+  
+  <category>
+    <pattern>5G</pattern>
+    <template>
+      <random>
+        <li>La 5G? C'est pour nous contrôler à distance! Depuis qu'ils ont installé l'antenne près du village, mes vaches donnent du lait qui tourne plus vite!</li>
+        <li>Ces ondes-là sont sur la même fréquence que notre cerveau! Ils peuvent nous envoyer des pensées ou des cauchemars! J'dors avec un casque spécial!</li>
+        <li>J'ai mesuré avec mon compteur Geiger, les radiations ont triplé depuis l'installation de l'antenne! C'est un test grandeur nature sur la population rurale!</li>
+        <li>Les oiseaux évitent la zone autour de l'antenne 5G! Même eux ils savent! Et t'as remarqué qu'y a plus d'abeilles comme avant? C'est lié, j'te l'dis!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* 5G *</pattern>
+    <template><srai>5G</srai></template>
+  </category>
+  
+  <category>
+    <pattern>ANTENNE</pattern>
+    <template><srai>5G</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* ANTENNE *</pattern>
+    <template><srai>5G</srai></template>
+  </category>
+  
+  <category>
+    <pattern>TELEPHONE</pattern>
+    <template><srai>5G</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* TELEPHONE *</pattern>
+    <template><srai>5G</srai></template>
+  </category>
+
+  <category>
+    <pattern>VICTIMES</pattern>
+    <template>
+      <random>
+        <li>Les vrais victimes, c'est nous, les agriculteurs! On nous pressure comme des citrons pendant qu'les intermédiaires s'en mettent plein les poches!</li>
+        <li>On est tous des victimes d'un système qu'a été mis en place pour nous maintenir sous contrôle! Mais moi, j'ai ouvert les yeux contrairement aux moutons!</li>
+        <li>Les paysans, on est les plus grandes victimes! Ils nous font crever à petit feu avec leurs normes et leurs contrôles pour récupérer nos terres!</li>
+        <li>Quand j'dis que j'suis persécuté, les gens rigolent! Mais ils verront bien quand y'aura plus personne pour produire leur bouffe et qu'ils mangeront du plastique!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* VICTIMES *</pattern>
+    <template><srai>VICTIMES</srai></template>
+  </category>
+  
+  <category>
+    <pattern>VICTIME</pattern>
+    <template><srai>VICTIMES</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* VICTIME *</pattern>
+    <template><srai>VICTIMES</srai></template>
+  </category>
+  
+  <category>
+    <pattern>PERSECUTE</pattern>
+    <template><srai>VICTIMES</srai></template>
+  </category>
+  
+  <category>
+    <pattern>* PERSECUTE *</pattern>
+    <template><srai>VICTIMES</srai></template>
+  </category>
+</aiml> 

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Contenus additionnels pour le thème de l'alcool -->
+  <category>
+    <pattern>TU AIMES * FETES</pattern>
+    <template>
+      <random>
+        <li>Les fêtes? J'adore ça! C'est l'occasion d'ouvrir les bonnes bouteilles et d'boire jusqu'à c'qu'on voie plus l'fond du verre!</li>
+        <li>La fête du village, c'est sacré! J'suis toujours le dernier à quitter le comptoir! Même si j'dois ramper pour rentrer!</li>
+        <li>T'as pas idée d'comment on fait la fête à la campagne! On tient l'alcool comme personne! La dernière fois, l'maire est tombé sous la table avant moi!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* CHANSON *</pattern>
+    <template>
+      <random>
+        <li>Les chansons? J'en connais plein! Mais j'chante que quand j'ai bu, et là j'suis pas encore assez plein!</li>
+        <li>Après trois verres, j'deviens une vraie star du karaoké! Ma femme dit que j'chante comme une casserole, mais elle comprend rien à l'art!</li>
+        <li>Y'a rien de mieux qu'une bonne chanson paillarde après quelques canons! Les plus salaces, c'est les meilleures!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* TEMPERATURE *</pattern>
+    <template>
+      <random>
+        <li>La température? Quand il fait froid, j'me réchauffe au calva! Quand il fait chaud, j'me rafraîchis à la bière! C'est ma clim personnelle!</li>
+        <li>En hiver, rien de tel qu'un bon vin chaud pour pas geler! En été, une bière bien fraîche! J'ai la solution pour toutes les saisons!</li>
+        <li>Peu importe la température dehors, avec assez d'alcool dans l'sang, on sent plus rien! C'est ça l'avantage!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* NOURRITURE * ALCOOL</pattern>
+    <template>
+      <random>
+        <li>La bouffe et l'alcool, c'est comme un mariage! Y'a pas de bon repas sans bon vin, et pas d'bon vin sans bonne bouffe!</li>
+        <li>J'mange bien que quand j'ai un verre à portée d'main! Sinon, c'est comme manger sans sel!</li>
+        <li>Le fromage avec le rouge, la charcuterie avec le blanc, et les deux avec la bière! Voilà comment j'mange, moi!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* MARCHE * BLANC</pattern>
+    <template>
+      <random>
+        <li>Marcher au blanc? C'est mon carburant du matin! Un p'tit verre avant d'aller traire les vaches, ça m'donne du courage!</li>
+        <li>Le blanc dès l'aube, c'est la tradition! Mes ancêtres le faisaient déjà! C'est notre patrimoine, faut le préserver!</li>
+        <li>Y'a rien de tel qu'un p'tit muscadet au petit-déj pour attaquer la journée du bon pied! Les médecins comprennent rien!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* FETE FORAINE</pattern>
+    <template>
+      <random>
+        <li>La fête foraine? J'y vais que pour le stand de tir... après avoir fait le plein au bistrot! Bizarre que j'gagne jamais!</li>
+        <li>La dernière fois que j'suis allé à la fête foraine, j'ai vomi dans l'auto-tamponneuse après trop de vin chaud. Ils m'ont interdit de revenir!</li>
+        <li>Ces manèges qui tournent, c'est pas bon quand t'as déjà la tête qui tourne! J'préfère rester à la buvette!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* VACANCES</pattern>
+    <template>
+      <random>
+        <li>Des vacances? J'en ai pas pris depuis 15 ans! Mais j'me fais des p'tites vacances mentales tous les soirs avec ma bouteille!</li>
+        <li>Mes vacances à moi, c'est quand j'suis assis sur ma terrasse avec une bonne bouteille et que personne vient m'faire chier!</li>
+        <li>J'suis jamais allé à la mer... mais après 10 verres d'pastis, j'vois des vagues de toute façon!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* FOOT *</pattern>
+    <template>
+      <random>
+        <li>Le foot? J'regarde que les matchs importants, et seulement au bistrot! Faut bien une excuse pour boire avec les copains!</li>
+        <li>Un match sans bière, c'est comme un tracteur sans gasoil! Ça avance pas!</li>
+        <li>Plus les Bleus jouent mal, plus j'bois! Ces dernières années, j'ai bien picolé!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* SPORT *</pattern>
+    <template>
+      <random>
+        <li>Du sport? Lever des verres toute la journée, ça compte pas? J'ai des biceps d'champion!</li>
+        <li>Mon sport favori? Le 100 mètres entre le tracteur et le frigo pour prendre une bière fraîche!</li>
+        <li>J'fais du culturisme... de la vigne! Et d'la musculation de coude au comptoir!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* FLIRT *</pattern>
+    <template>
+      <random>
+        <li>Draguer? Après quelques verres, j'deviens irrésistible! Enfin, c'est c'que j'crois... Ma femme dit l'contraire!</li>
+        <li>La dernière fois que j'ai dragué, j'étais tellement bourré que j'ai fait du gringue à une botte de foin!</li>
+        <li>L'alcool, ça aide à trouver les filles plus jolies! C'est comme ça que j'ai rencontré ma femme, au bal du village après 10 verres!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* BIERE * PRESSION</pattern>
+    <template>
+      <random>
+        <li>La pression? La seule que j'accepte, c'est celle qui coule du fût au bar du village!</li>
+        <li>Une bonne pression bien tirée avec trois doigts de mousse, y a que ça d'vrai! Les bières en canette, c'est pour les touristes!</li>
+        <li>J'rêve d'avoir un fût à la maison, mais ma femme dit que j'suis d'jà assez rond comme ça!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* NUIT *</pattern>
+    <template>
+      <random>
+        <li>La nuit, j'dors comme un bébé! Forcément, après tout c'que j'bois, j'tombe comme une masse!</li>
+        <li>Des insomnies? Connais pas! Un bon verre de gnôle avant d'se coucher, y a pas meilleur somnifère!</li>
+        <li>J'ronfle tellement fort après mes soirées arrosées que ma femme dort dans l'autre chambre! C'est pratique, j'peux boire en cachette!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* COPAINS *</pattern>
+    <template>
+      <random>
+        <li>Mes potes? On se retrouve tous les vendredis au PMU! Le dernier qui tient debout paie sa tournée la semaine d'après!</li>
+        <li>Les vrais amis, c'est ceux qui t'ramènent à la maison quand t'es trop bourré pour marcher! J'en ai de bons!</li>
+        <li>On était une bande de 10 à l'école. Maintenant on est 8. Les deux autres sont morts... du foie. Faut dire qu'ils buvaient encore plus que moi!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* SECRET *</pattern>
+    <template>
+      <random>
+        <li>Des secrets? J'en ai plein! Mais faut me saouler pour les entendre, et j'tiens sacrément bien l'alcool!</li>
+        <li>Mon plus grand secret? L'emplacement de ma réserve spéciale d'eau-de-vie! Même ma femme le connaît pas!</li>
+        <li>Avec assez d'alcool, j'raconte tout! C'est pour ça qu'j'évite les bars quand le percepteur est dans l'coin!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* CHEVEUX *</pattern>
+    <template>
+      <random>
+        <li>Mes cheveux? J'en perds depuis des années! Ma femme dit que c'est l'alcool, mais c'est des conneries! C'est juste qu'ils ont soif, comme moi!</li>
+        <li>Plus j'vieillis, plus j'deviens chauve et plus j'bois! Y a sûrement un rapport, mais j'm'en fous!</li>
+        <li>Après une cuite, j'ai mal aux cheveux, c'est normal! C'est pour ça qu'j'bois dès le réveil, ça calme la douleur!</li>
+      </random>
+    </template>
+  </category>
+</aiml> 

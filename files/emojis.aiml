@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-  <!-- Système d'emojis pour Gérard -->
+  <!-- Système d'emojis pour Gérard - version simplifiée -->
   
   <category>
     <pattern>$EMOJI_ALCOOL</pattern>
@@ -58,211 +58,21 @@
   </category>
   
   <category>
-    <pattern>$EMOJI_PENSE</pattern>
-    <template>
-      <random>
-        <li>🤔</li>
-        <li>💭</li>
-        <li>🧠</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>$EMOJI_MEDECIN</pattern>
-    <template>
-      <random>
-        <li>👨‍⚕️</li>
-        <li>💊</li>
-        <li>💉</li>
-        <li>🏥</li>
-      </random>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>$EMOJI_GENERAL</pattern>
-    <template>
-      <random>
-        <li><srai>$EMOJI_ALCOOL</srai></li>
-        <li><srai>$EMOJI_COLERE</srai></li>
-        <li><srai>$EMOJI_COMPLOT</srai></li>
-        <li><srai>$EMOJI_AGRICOLE</srai></li>
-      </random>
-    </template>
-  </category>
-  
-  <!-- Catégories pour associer les emojis aux sujets de conversation -->
-  
-  <category>
-    <pattern>AJOUTER_EMOJI *</pattern>
-    <template>
-      <think>
-        <set name="sujet"><star /></set>
-      </think>
-      <condition name="sujet">
-        <li value="ALCOOL"><srai>$EMOJI_ALCOOL</srai></li>
-        <li value="VIN"><srai>$EMOJI_ALCOOL</srai></li>
-        <li value="BIERE"><srai>$EMOJI_ALCOOL</srai></li>
-        <li value="PASTIS"><srai>$EMOJI_ALCOOL</srai></li>
-        <li value="GNOLE"><srai>$EMOJI_ALCOOL</srai></li>
-        <li value="BOURRE"><srai>$EMOJI_ALCOOL</srai></li>
-        <li value="TRINQUER"><srai>$EMOJI_ALCOOL</srai></li>
-        
-        <li value="COLERE"><srai>$EMOJI_COLERE</srai></li>
-        <li value="MERDE"><srai>$EMOJI_COLERE</srai></li>
-        <li value="PUTAIN"><srai>$EMOJI_COLERE</srai></li>
-        <li value="CONNARD"><srai>$EMOJI_COLERE</srai></li>
-        <li value="CON"><srai>$EMOJI_COLERE</srai></li>
-        
-        <li value="COMPLOT"><srai>$EMOJI_COMPLOT</srai></li>
-        <li value="GOUVERNEMENT"><srai>$EMOJI_COMPLOT</srai></li>
-        <li value="ILLUMINATI"><srai>$EMOJI_COMPLOT</srai></li>
-        <li value="CHEMTRAIL"><srai>$EMOJI_COMPLOT</srai></li>
-        <li value="VACCIN"><srai>$EMOJI_COMPLOT</srai></li>
-        <li value="5G"><srai>$EMOJI_COMPLOT</srai></li>
-        <li value="ALIENS"><srai>$EMOJI_COMPLOT</srai></li>
-        
-        <li value="AGRICOLE"><srai>$EMOJI_AGRICOLE</srai></li>
-        <li value="TRACTEUR"><srai>$EMOJI_AGRICOLE</srai></li>
-        <li value="FERME"><srai>$EMOJI_AGRICOLE</srai></li>
-        <li value="VACHE"><srai>$EMOJI_AGRICOLE</srai></li>
-        <li value="PAYSAN"><srai>$EMOJI_AGRICOLE</srai></li>
-        <li value="TERRE"><srai>$EMOJI_AGRICOLE</srai></li>
-        <li value="RECOLTE"><srai>$EMOJI_AGRICOLE</srai></li>
-        
-        <li value="DOCTEUR"><srai>$EMOJI_MEDECIN</srai></li>
-        <li value="MEDECIN"><srai>$EMOJI_MEDECIN</srai></li>
-        <li value="MEDICAMENT"><srai>$EMOJI_MEDECIN</srai></li>
-        <li value="SANTE"><srai>$EMOJI_MEDECIN</srai></li>
-        <li value="MALADIE"><srai>$EMOJI_MEDECIN</srai></li>
-        
-        <li><srai>$EMOJI_GENERAL</srai></li>
-      </condition>
-    </template>
-  </category>
-  
-  <!-- Modificateur de réponses pour ajouter des emojis -->
-  
-  <category>
-    <pattern>EMOJI_DEBUT</pattern>
-    <template><srai>$EMOJI_GENERAL</srai> </template>
-  </category>
-  
-  <category>
-    <pattern>EMOJI_FIN</pattern>
-    <template> <srai>$EMOJI_GENERAL</srai></template>
-  </category>
-  
-  <category>
-    <pattern>EMOJI_DEUX</pattern>
-    <template><srai>$EMOJI_GENERAL</srai> <star /> <srai>$EMOJI_GENERAL</srai></template>
-  </category>
-  
-  <category>
-    <pattern>EMOJI_ALEATOIRE</pattern>
-    <template>
-      <random>
-        <li><srai>EMOJI_DEBUT</srai><star /></li>
-        <li><star /><srai>EMOJI_FIN</srai></li>
-        <li><srai>EMOJI_DEBUT</srai><star /><srai>EMOJI_FIN</srai></li>
-        <li><star /></li>
-      </random>
-    </template>
-  </category>
-  
-  <!-- Règle pour injecter automatiquement des emojis dans toutes les réponses -->
-  <category>
     <pattern>INJECTER_EMOJI *</pattern>
     <template>
-      <think>
-        <set name="message"><star /></set>
-        <set name="longueur"><srai>LONGUEUR <get name="message" /></srai></set>
-      </think>
-      <condition name="longueur">
-        <li value="COURT"><srai>EMOJI_ALEATOIRE <get name="message" /></srai></li>
-        <li><srai>EMOJI_PHRASES <get name="message" /></srai></li>
-      </condition>
+      <random>
+        <li><srai>$EMOJI_ALCOOL</srai> <star/></li>
+        <li><star/> <srai>$EMOJI_ALCOOL</srai></li>
+        <li><srai>$EMOJI_COLERE</srai> <star/></li>
+        <li><star/> <srai>$EMOJI_COLERE</srai></li>
+        <li><srai>$EMOJI_COMPLOT</srai> <star/></li>
+        <li><star/> <srai>$EMOJI_COMPLOT</srai></li>
+        <li><srai>$EMOJI_AGRICOLE</srai> <star/></li>
+        <li><star/> <srai>$EMOJI_AGRICOLE</srai></li>
+        <li><srai>$EMOJI_ALCOOL</srai> <star/> <srai>$EMOJI_COLERE</srai></li>
+        <li><srai>$EMOJI_COMPLOT</srai> <star/> <srai>$EMOJI_ALCOOL</srai></li>
+      </random>
     </template>
   </category>
   
-  <category>
-    <pattern>LONGUEUR *</pattern>
-    <template>
-      <think>
-        <set name="test"><star /></set>
-        <set name="mots">0</set>
-        <set var="texte"><star /></set>
-        <!-- Compter approximativement le nombre de mots -->
-        <condition var="texte">
-          <li value=""></li>
-          <li>
-            <set name="mots"><map name="successor"><get name="mots" /></map></set>
-            <set var="texte"><srai>RESTE <get var="texte" /></srai></set>
-            <loop />
-          </li>
-        </condition>
-      </think>
-      <condition name="mots">
-        <li value="0">VIDE</li>
-        <li value="1">COURT</li>
-        <li value="2">COURT</li>
-        <li value="3">COURT</li>
-        <li value="4">COURT</li>
-        <li value="5">COURT</li>
-        <li>LONG</li>
-      </condition>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>RESTE *</pattern>
-    <template>
-      <regex pattern=" (.*)" match="\1">
-        <star />
-      </regex>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>EMOJI_PHRASES *</pattern>
-    <template>
-      <think>
-        <set name="texte"><star /></set>
-        <set name="resultat"></set>
-        
-        <!-- Séparer par phrases et ajouter des emojis -->
-        <condition name="texte">
-          <li value=""></li>
-          <li>
-            <set var="phrase"><srai>PREMIERE_PHRASE <get name="texte" /></srai></set>
-            <set var="reste"><srai>RESTE_PHRASES <get name="texte" /></srai></set>
-            
-            <set name="resultat"><get name="resultat" /> <srai>EMOJI_ALEATOIRE <get var="phrase" /></srai></set>
-            <set name="texte"><get var="reste" /></set>
-            <loop />
-          </li>
-        </condition>
-      </think>
-      <get name="resultat" />
-    </template>
-  </category>
-  
-  <category>
-    <pattern>PREMIERE_PHRASE *</pattern>
-    <template>
-      <regex pattern="(.*?[.!?]) ?" match="\1">
-        <star />
-      </regex>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>RESTE_PHRASES *</pattern>
-    <template>
-      <regex pattern=".*?[.!?] ?(.*)" match="\1">
-        <star />
-      </regex>
-    </template>
-  </category>
 </aiml> 

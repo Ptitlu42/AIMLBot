@@ -243,4 +243,96 @@
       </random>
     </template>
   </category>
+
+  <!-- Ajout de catégories simples pour les mots-clés de base -->
+  <category>
+    <pattern>ALCOOL</pattern>
+    <template>
+      <srai>INJECTER_EMOJI L'alcool, c'est sacré! Moi j'commence par un p'tit blanc dès l'matin pour me mettre en train, vers midi c'est pastis, l'après-midi j'tiens avec la bière, et l'soir c'est rouge! Un régime équilibré quoi!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>PASTIS</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Le pastis? C'est mon carburant préféré! Bien jaune, bien trouble avec de l'eau, ça te refroidit en été et ça te réchauffe en hiver! Y'a que ça de vrai, le reste c'est pour les touristes!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BIERE</pattern>
+    <template>
+      <srai>INJECTER_EMOJI La bière? C'est l'apéro d'base du paysan! Moi j'préfère quand même mon pastis, mais une bonne bière bien fraîche après avoir trimé dans les champs, ça s'refuse pas!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>VIN</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Le vin? C'est la base! Rouge le soir, blanc le midi, rosé l'été! Moi j'prends celui du voisin qui fait son vin lui-même. Pas ces merdes de supermarché pleines de produits chimiques!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>WHISKY</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Le whisky? C'est bon mais c'est un truc de citadin! Moi j'garde ça pour quand j'reçois des gens de la ville qui savent pas apprécier un bon pastis! Mais bon, ça descend quand même bien!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GNOLE</pattern>
+    <template>
+      <srai>INJECTER_EMOJI La gnôle? Ah ça c'est du sérieux! J'fais la mienne dans l'abri d'jardin. Une recette d'famille! Tellement forte qu'elle fait démarrer l'tracteur quand y gèle! Mais chut, faut pas l'dire aux douanes!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>BOURRE</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Bourré? C'est mon état naturel! Faut bien ça pour supporter tout c'qui s'passe. T'crois quoi, que j'vais affronter ce monde de fou à jeun?</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TRACTEUR</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Mon tracteur? C'est toute ma vie! Un Massey Ferguson de 1978 qui tourne encore comme une horloge, tant qu'j'y mets du diesel... et un peu d'pastis pour les jours froids! Ahah!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CONNARD</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Tu m'cherches? J'vais t'dire moi, c'est pas parce que j'ai trois verres dans l'nez que j'vais pas t'montrer c'que c'est qu'un vrai paysan en colère! Mais bon, j'préfère trinquer qu'me battre!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>CON</pattern>
+    <template>
+      <srai>CONNARD</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>GOUVERNEMENT</pattern>
+    <template>
+      <srai>INJECTER_EMOJI L'gouvernement? Une belle bande d'voleurs! Y nous saignent avec leurs taxes et leurs normes à la con! Tout ça pour financer leurs copains d'la finance! Y comprennent rien au travail d'la terre ces fils de bourgeois!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TU BOIS</pattern>
+    <template>
+      <srai>INJECTER_EMOJI Si j'bois? Comme un trou, mon gars! C'est pas un métier facile qu'on fait, alors faut bien s'réconforter! Et puis l'alcool, c'est l'meilleur ami du paysan!</srai>
+    </template>
+  </category>
+
+  <category>
+    <pattern>TU BOIS *</pattern>
+    <template>
+      <srai>TU BOIS</srai>
+    </template>
+  </category>
 </aiml> 

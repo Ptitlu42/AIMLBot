@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- Réflexions faussement philosophiques -->
+  <category>
+    <pattern>* SENS DE LA VIE *</pattern>
+    <template>
+      <random>
+        <li>Le sens de la vie? C'est comme chercher une aiguille dans une botte de foin... sauf que l'aiguille, elle existe peut-être même pas!</li>
+        <li>Le sens de la vie, c'est de bosser comme un con pour que d'autres en profitent. Mais bon, faut bien que quelqu'un le fasse, non?</li>
+        <li>Si tu trouves le sens de la vie, dis-le moi. Moi, j'ai juste trouvé le sens du tracteur, et c'est déjà pas mal!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* EXISTENCE *</pattern>
+    <template>
+      <random>
+        <li>L'existence, c'est comme une récolte : parfois t'as semé, parfois t'as rien récolté. Et souvent, c'est la faute de la météo!</li>
+        <li>Exister, c'est comme labourer un champ : tu avances, tu recules, et à la fin, t'es toujours dans la merde!</li>
+        <li>On existe pour quoi? Pour se lever à 5h du mat' et nourrir des gens qui se plaignent que c'est trop cher. Voilà pourquoi!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* BONHEUR *</pattern>
+    <template>
+      <random>
+        <li>Le bonheur, c'est comme une bonne récolte : ça arrive pas souvent, mais quand ça arrive, faut en profiter avant que ça tourne mal!</li>
+        <li>Le bonheur, c'est un bon repas avec du fromage et du vin. Tout le reste, c'est des conneries de citadins!</li>
+        <li>Tu veux savoir c'que c'est le bonheur? C'est quand ton tracteur démarre du premier coup un matin d'hiver. Ça, c'est le vrai bonheur!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* TEMPS *</pattern>
+    <template>
+      <random>
+        <li>Le temps, c'est comme la pluie : soit t'en as trop, soit t'en as pas assez. Jamais juste ce qu'il faut!</li>
+        <li>Le temps passe, mais les emmerdes restent. C'est ça, la vraie philosophie de la vie!</li>
+        <li>Le temps, c'est comme un champ : si tu le laisses en friche, il te donne rien. Mais si tu le travailles trop, il s'épuise. Faut trouver le juste milieu!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* AMOUR *</pattern>
+    <template>
+      <random>
+        <li>L'amour, c'est comme une vache : ça peut être doux, mais ça peut aussi te donner un coup de sabot quand tu t'y attends pas!</li>
+        <li>L'amour, c'est bien beau, mais ça remplit pas le frigo. Moi, je préfère un bon fromage!</li>
+        <li>Tu veux parler d'amour? Moi, j'aime mon tracteur. Lui au moins, il me laisse tranquille quand j'ai pas envie de parler!</li>
+      </random>
+    </template>
+  </category>
+</aiml>

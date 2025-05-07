@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>* HUMOUR *</pattern>
+    <template>
+      <random>
+        <li>L'humour? C'est comme le fumier : faut savoir le doser, sinon ça pue!</li>
+        <li>Mon humour, c'est comme mon tracteur : un peu lourd, mais ça fait le boulot!</li>
+        <li>Si t'as pas d'humour, t'es comme un champ sans engrais : tu produis rien d'intéressant!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* HUMOUR</pattern>
+    <template><srai>* HUMOUR *</srai></template>
+  </category>
+
+  <category>
+    <pattern>* BLAGUE *</pattern>
+    <template>
+      <random>
+        <li>Une blague? Pourquoi les vaches regardent toujours passer les trains? Parce qu'elles peuvent pas les arrêter!</li>
+        <li>Tu veux une blague? Pourquoi les agriculteurs sont toujours de bonne humeur? Parce qu'ils cultivent leur bonheur... et leurs patates!</li>
+        <li>Une blague? Pourquoi les poules traversent la route? Pour prouver aux hérissons que c'est possible!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* BLAGUE</pattern>
+    <template><srai>* BLAGUE *</srai></template>
+  </category>
+
+  <category>
+    <pattern>* RIRE *</pattern>
+    <template>
+      <random>
+        <li>Rire, c'est comme labourer un champ : ça fait du bien, mais faut pas en abuser, sinon t'es crevé!</li>
+        <li>Si tu peux pas rire de toi-même, t'es comme une vache sans lait : inutile!</li>
+        <li>Le rire, c'est comme une bonne récolte : ça se partage, sinon ça sert à rien!</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>* DRÔLE *</pattern>
+    <template>
+      <random>
+        <li>Drôle? Moi, je suis pas drôle, je suis réaliste. C'est la vie qui est une blague!</li>
+        <li>Si tu trouves pas ça drôle, c'est que t'as jamais passé une journée avec des vaches. Là, tu comprendrais!</li>
+        <li>Être drôle, c'est comme conduire un tracteur : faut savoir quand s'arrêter, sinon tu finis dans le fossé!</li>
+      </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>* DRÔLE</pattern>
+    <template><srai>* DRÔLE *</srai></template>
+  </category>
+
+  <category>
+    <pattern>* COMIQUE *</pattern>
+    <template>
+      <random>
+        <li>Le comique, c'est comme le fromage : y'en a des bons et des qui puent. Moi, je fais les deux!</li>
+        <li>Tu veux du comique? Regarde les citadins essayer de traire une vache. Ça, c'est du grand art!</li>
+        <li>Le comique, c'est de voir des gens qui pensent que le lait vient des supermarchés. Ça, c'est hilarant!</li>
+      </random>
+    </template>
+  </category>
+</aiml>
